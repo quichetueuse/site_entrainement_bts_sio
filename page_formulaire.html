@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire d'inscription</title>
+</head>
+<body style="background-color: lightseagreen">
+    <h1 style="text-align: center;color: indianred"><strong>Formulaire d'Inscription</strong></h1>
+</body>
+<form>
+    <div style="text-align: center"><label>Last Name</label><input type="text" name="lastname" id="last_name"></div>
+    <br>
+    <div style="text-align: center"><label>First Name :</label> <input type="text" name="firstname" id="first_name"></div>
+    <br>
+    <div style="text-align: center"><label>Birth Date :</label><input type="date" name="birth_date" id="birth_date"></div>
+    <br>
+    <div style="text-align: center"><label>Password :</label> <input type="password" name="passwd" id="psswd"></div>
+    <br>
+    <div style="text-align: center;"><input type="button" name="btn_submit" value="Submit" onclick="upt_info()"><input type="button" name="btn_reset" value="Reset" onclick="empty_input()"></div>
+    <br>
+    <div style="text-align: center"><a href="index.html">Retour au sommaire</a></div>
+    <p style="text-align: center" id="summary"></p>
+    <script>
+        function upt_info() {
+            var last_name = document.getElementById("last_name").value;
+            var first_name = document.getElementById("first_name").value;
+            var birth_date = document.getElementById("birth_date").value;
+            var password = document.getElementById("psswd").value;
+            document.getElementById("summary").innerText = "Hello "+ first_name + " " + last_name+", your birth date is " + birth_date + " and your password is " + password;
+        }
+        function empty_input() {
+            document.getElementById("last_name").value = ""
+            document.getElementById("first_name").value = ""
+            document.getElementById("birth_date").value = ""
+            document.getElementById("psswd").value = ""
+
+        }
+    </script>
+
+    <table class="center" style="margin-left: auto; margin-right: auto">
+        <tr>
+            <td style="color: yellow">Position dy lycée</td>
+            <td style="color: blueviolet">tutoriel</td>
+        </tr>
+        <tr>
+            <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6520964329143!2d2.2477333879517523!3d48.73123903569548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e677a226d26443%3A0x169ed3e42bc6b239!2sLyc%C3%A9e%20Parc%20de%20Vilgenis!5e0!3m2!1sfr!2sfr!4v1694592993430!5m2!1sfr!2sfr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+            <td><iframe width="300" height="300" src="https://www.youtube.com/embed/kZ3FWzO8FjQ" title="How to Enable Realview Solidworks 2021 RTX 3000 Series Gaming GPU Hack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+
+    </table>
+
+</form>
+</html>
