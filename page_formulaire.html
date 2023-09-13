@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire d'inscription</title>
+</head>
+<body style="background-color: lightseagreen">
+    <h1 style="text-align: center;color: indianred"><strong>Formulaire d'Inscription</strong></h1>
+</body>
+<form>
+    <div style="text-align: center"><label>Last Name</label><input type="text" name="lastname" id="last_name"></div>
+    <br>
+    <div style="text-align: center"><label>First Name :</label> <input type="text" name="firstname" id="first_name"></div>
+    <br>
+    <div style="text-align: center"><label>Birth Date :</label><input type="date" name="birth_date" id="birth_date"></div>
+    <br>
+    <div style="text-align: center"><label>Password :</label> <input type="password" name="passwd" id="psswd"></div>
+    <br>
+    <div style="text-align: center;"><input type="button" name="btn_submit" value="Submit" onclick="upt_info()"><input type="button" name="btn_reset" value="Reset" onclick="empty_input()"></div>
+    <br>
+    <div style="text-align: center"><a href="index.html">Retour au sommaire</a></div>
+    <button style="height:50px;width:100px" value="Submit" ></button>
+    <p style="text-align: center" id="summary"></p>
+    <script>
+        function upt_info() {
+            var last_name = document.getElementById("last_name").value;
+            var first_name = document.getElementById("first_name").value;
+            var birth_date = document.getElementById("birth_date").value;
+            var password = document.getElementById("psswd").value;
+            document.getElementById("summary").innerText = "Hello "+ first_name + " " + last_name+", your birth date is " + birth_date + " and your password is " + password;
+        }
+        function empty_input() {
+            document.getElementById("last_name").value = ""
+            document.getElementById("first_name").value = ""
+            document.getElementById("birth_date").value = ""
+            document.getElementById("psswd").value = ""
+
+        }
+    </script>
+
+
+</form>
+</html>
