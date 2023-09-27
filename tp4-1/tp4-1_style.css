@@ -1,0 +1,18 @@
+.btn_save
+{
+    background-color: coral;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    width: 150px;
+
+}
+.btn_save:hover
+{
+    background-color: green;
+    color: white;
+}
