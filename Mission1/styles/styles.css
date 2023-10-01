@@ -1,0 +1,363 @@
+/**
+Eliot BARRABES - BTS SIO B
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+    font: 'Open Sans', cursive;
+    font-family: Open Sans;
+}
+
+body {
+    /* font-family: Cambria; */
+    background: #666;
+    margin: 5px;
+}
+
+h1 {
+    color: white;
+    display: block;
+    /* font: normal 36px 'Open Sans', bold, cursive; */
+    font: normal 36px, bold;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    display: : block;
+    font: normal 18px, bold;
+    font-weight: bold;
+    margin: 25px;
+    text-align: left;
+}
+
+ol.numbered {
+    color: darkblue;
+    font: italic 18px, bold;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ol.numbered a {
+    border-left: 1px solid white;
+    color: blue;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0 0 3px 2px;
+    text-decoration: none;
+}
+
+ol.numbered a:hover {
+    border: 1px solid white;
+    /* border-right: none; */
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ol.numbered li:hover {
+    background-color: lightgrey;
+}
+
+ol.numbered span em {
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+}
+
+ol.numbered span em strong a {
+    font-weight: bold;
+}
+
+img.auto {
+    height: auto;
+    width: 70%;
+}
+
+p.legend {
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+}
+
+p.link a {
+    /* border-left: 1px dotted lightgrey; */
+    border-bottom: 1px solid lightgrey;
+    color: blue;
+    display: : block;
+    font-style: normal;
+    font-weight: normal;
+    margin: 25px;
+    padding: 0 0 3px 2px;
+    text-align: left;
+    text-decoration: none;
+}
+
+p.link a:hover {
+    border: 1px solid white;
+    /*border-right: none;*/
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p.center {
+    text-align: center;
+}
+
+table.form {
+    color: white;
+}
+
+td.label {
+    font-weight: bold;
+    margin: 10px;
+    text-align: left;
+    width: auto;
+}
+
+td.mandatory {
+    color: red;
+    font-weight: bold;
+    text-align: left;
+    width: auto;
+}
+
+td.input {
+    margin: 10px;
+    text-align: left;
+}
+
+input {
+    color: black;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: lightgrey;
+}
+
+input.mandatory {
+    color:red;
+}
+
+imput.range {
+    color:black;
+}
+
+input.button {
+    color: black;
+    font-weight: bold;
+}
+
+/*
+input::placeholder{
+    color:red;
+}
+*/
+
+.datalist-input {
+    /*
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    width: 16px;
+    height: 16px;
+    */
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: lightgrey;
+}
+
+
+section {
+    background: #333;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    height: 50vh;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.footer-distributed {
+    background: #666;
+    border-top: 1px solid white;
+    /*background: aquamarine;*/
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+    font: bold 16px sans-serif;
+    padding: 10px 25px;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: white;
+    font: normal 24px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: white;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    color: inherit;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-company-name {
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+    height: 38px;
+    line-height: 42px;
+    margin: 10px 15px;
+    text-align: center;
+    vertical-align: middle;
+    width: 38px;
+}
+
+.footer-distributed .footer-center i.fa {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer-distributed .footer-center p {
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+    color: #fff;
+    content: '|';
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    left: 0;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    background-color: #33383b;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    text-align: center;
+    width: 35px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        margin-bottom: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}

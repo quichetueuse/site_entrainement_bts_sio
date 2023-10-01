@@ -1,0 +1,62 @@
+h1
+{
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.iframe_sommaire
+{
+  width: 30%;
+  height: 800px;
+}
+
+.iframe_view
+{
+  width: 65%;
+  height: 800px;
+}
+
+
+.element_sommaire
+{
+  font-weight: bold;
+  transition: 0.3s ease;
+  font-size: 25px;
+}
+.element_sommaire:hover
+{
+  color: red;
+  transform: scale(1.01);
+}
+
+
+.a_non_stylisé
+{
+  text-decoration: none;
+  color:inherit;
+}
+
+.tableau_d, td, tr
+{
+  border: 5px inset darkblue;
+  border-collapse: collapse;
+}
+
+.colonne_titre
+{
+  height: 50px;
+}
+
+
+.pperso
+{
+  font-family: "Arial Rounded MT Bold";
+  color: darksalmon;
+  font-size: 25px;
+}
