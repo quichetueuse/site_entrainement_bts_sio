@@ -1,0 +1,12 @@
+body
+{
+    background-image: url('background-mountain.png');
+
+}
+
+iframe
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

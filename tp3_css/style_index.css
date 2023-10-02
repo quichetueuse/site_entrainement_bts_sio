@@ -1,0 +1,51 @@
+body
+{
+    background-color: rosybrown;
+}
+
+
+
+.h3-AMD
+{
+    font-weight: bold;
+    color: red;
+}
+
+.h3-Intel
+{
+    font-weight: bold;
+    color: blue;
+}
+
+.div-AMD
+{
+    border-color: red;
+}
+
+.div-Intel
+{
+    border-color: blue;
+}
+
+h1
+{
+    text-align: center;
+}
+
+
+p
+{
+    color: aquamarine;
+    text-align: center;
+}
+
+div
+{
+    border: 4px solid black;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 5%;
+    text-align: center;
+}
