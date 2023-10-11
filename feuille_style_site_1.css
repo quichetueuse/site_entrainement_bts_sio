@@ -51,11 +51,11 @@ a:hover {
 
 .navbar li:hover ul {
     display: block;
-    /*     animation: fadeIn 1s;*/
-    animation: animScale 1000ms ease-in-out,
+    /*     animation: fadeIn 1s;
+    animation: fadeIn 1000ms ease-in-out,
+    animScale 1000ms ease-in-out,
     animOpacity 1000ms ease-in-out,
-    descale 1000ms ease-in-out 1s; /* the one sec at the end mean the delay when the animation will be played*/
-    /*animation-delay: 3s;*/
+    descale 1000ms ease-in-out 1s; the one sec at the end mean the delay when the animation will be played*/
 }
 
 .navbar li ul li {
@@ -97,14 +97,14 @@ a:hover {
     }
     to
     {
-        transform: scale(0.5, 0.5);
+        transform: scale(1, 1);
     }
 }
 
 
 @keyframes animScale{
     from{
-        transform: scale(0.2, 0.2);
+        transform: scale(0.1, 0.1);
     }
     to{
         transform: scale(1.1, 1.1);
