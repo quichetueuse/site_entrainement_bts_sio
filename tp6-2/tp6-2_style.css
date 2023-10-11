@@ -1,0 +1,30 @@
+
+.style_btn
+{
+    border: 3px solid white;
+    background-color: darkslategrey;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.style_btn:hover
+{
+    transform: scale(1.05);
+    background-color: grey;
+}
+
+h1
+{
+    color: red;
+
+}
+
+.case_texte
+{
+    border-radius: 30px 0px 30px 0px;
+    border: 5px outset blue;
+    width: 600px;
+    height: 250px;
+}
