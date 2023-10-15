@@ -79,6 +79,7 @@
 <div class="test_anim">
 
 </div>
+<div class="test_anim2"></div>
 
 <div style="float: right; width: 300px; height: 300px; background-color: grey;" id="test"></div>
 
@@ -141,20 +142,106 @@
             await sleep(150);
 
             //console.log("Hi");
-            widget.style.backgroundColor = "blue";
+            widget.style.backgroundColor = "blueviolet";
 //            const ctx = widget.getContext("2d");
 //            ctx.scale(2, 2)
             //widget.style.transform = "scale(1.5, 1.5)";
             //widget.style.width = "500px";
             //document.getElementById("liste1").style.display = "block";
             div_test = document.getElementById("test");
+
             document.getElementById("test").style.backgroundColor = "green";
+            //widget.style.fontSize = "25px";
+            //document.getElementsByClassName("case_css")[0].style.color = "white";
+            // widget.style.borderLeft = "1px solid #444444";
+            // widget.style.borderRight = "1px solid #444444";
+            // widget.style.borderTop ="1px solid #c9d4d8";
+            // widget.style.borderBottom  = "1px solid #444444";
+
             div_test.style.animation = "animScale 1000ms ease-in-out infinite, animOpacity 1000ms 1000ms ease-in-out infinite";
             widget.style.animation = "fadeIn 1000ms ease-in-out, \n" +
                 "    animScale 1000ms ease-in-out,\n" +
                 "    animOpacity 1000ms ease-in-out,\n" +
-                "    descale 1000ms ease-in-out 1s"
+                "    descale 1000ms ease-in-out 1s";
+            ///widget.style.fontSize = "25px";
+            console.log(widget.innerText);
+            //widget.innerText = "o";
+            widget.getElementsByTagName("a")[0].style.color = "white";
+            widget.getElementsByTagName("a")[0].style.pointerEvents = "auto";
+
+
+            widget.getElementsByTagName("a")[0].style.borderLeft = "1px solid #444444";
+            widget.getElementsByTagName("a")[0].style.borderRight = "1px solid #444444";
+            widget.getElementsByTagName("a")[0].style.borderTop = "1px solid #c9d4d8";
+            widget.getElementsByTagName("a")[0].style.borderBottom = "1px solid #444444";
+
+            setTimeout(function(){widget.style.animation = '';}, 2500);
+            current_dropdown = "";
+
+
+
+
+//            widget.style.userSelect = "auto";
+
+
+   //         widget.style.textIndent = "100%";
         }
+    }
+
+    function hide_dropdown()
+    {
+        console.log(element.id)
+        // document.getElementById("html_caller").onmouseover = function(event) {
+        //     myFunction(event.target)
+        // };
+
+        if (element.id === "html_caller")
+        {
+            current_dropdown = "case_html";
+            console.log("Nice html");
+        }
+        else if (element.id === "css_caller")
+        {
+            current_dropdown = "case_css";
+            console.log("Nice css");
+        }
+        else if (element.id === "mission_caller")
+        {
+            current_dropdown = "case_mission";
+            console.log("Nice mission");
+        }
+        else if (element.id === "js_caller")
+        {
+            current_dropdown = "case_js";
+            console.log("Nice mission");
+        }
+        else
+        {
+            console.log("sad")
+        }
+
+        for (const widget of document.getElementsByClassName(current_dropdown))
+        {
+            widget.style.animation = "fadeIn 1000ms ease-in-out, \n" +
+                "    animScale 1000ms ease-in-out,\n" +
+                "    animOpacity 1000ms ease-in-out,\n" +
+                "    descale 1000ms ease-in-out 1s";
+            ///widget.style.fontSize = "25px";
+            console.log(widget.innerText);
+            //widget.innerText = "o";
+            widget.getElementsByTagName("a")[0].style.color = "transparent";
+            widget.getElementsByTagName("a")[0].style.pointerEvents = "none";
+
+
+            widget.getElementsByTagName("a")[0].style.borderLeft = "none";
+            widget.getElementsByTagName("a")[0].style.borderRight = "none";
+            widget.getElementsByTagName("a")[0].style.borderTop = "none";
+            widget.getElementsByTagName("a")[0].style.borderBottom = "none";
+            widget.getElementsByTagName("a")[0].style.backgroundColor = "transparent";
+
+
+        }
+
     }
 
 

@@ -69,11 +69,22 @@ function give_name()
 {
     var case_texte = document.getElementById("case_placeholder")
 
-    var nom = prompt("Donnez votre nom: ");
     var prenom = prompt("donnez votre prénom: ")
+    var nom = prompt("Donnez votre nom: ");
 
-    case_texte.style.backgroundColor = "white";
-    case_texte.innerText = "Bonjour " + prenom + " " + nom;
+    if (prenom === "King" || nom === "Crimson")
+    {
+        case_texte.style.backgroundColor = "crimson";
+        case_texte.innerText = "Korega waga king crimson no noruiku da";
+        var audio = new Audio('King_crimson.mp3');
+        audio.play();
+
+    }
+    else
+    {
+        case_texte.style.backgroundColor = "white";
+        case_texte.innerText = "Bonjour " + prenom + " " + nom;
+    }
 }
 
 function change_bg()

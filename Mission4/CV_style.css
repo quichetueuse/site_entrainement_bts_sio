@@ -1,6 +1,7 @@
 header
 {
 background-color: cornflowerblue;
+  height: 250px;
 }
 
 header h1
@@ -31,9 +32,19 @@ p
   margin-right: auto;
 
   width: 780px;
-  height: 1100px;
+  height: 1780px;
   border: 5px solid #3388CC;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.titre_section
+{
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+  text-decoration: underline;
+  text-align: center;
 }
 
 h2
@@ -42,35 +53,67 @@ h2
   font-size: 20px;
 }
 
+table.test { border-collapse: collapse; }
+table.test td.ligne { border-bottom: 1px solid black; }
 
 .pp
 {
   width: 200px;
   height: 200px;
+  /*float: right;*/
+  position: relative;
   float: right;
+  bottom: 50px;
+  margin-right: 20px;
   border: 3px outset lightblue;
+  border-radius: 100px;
 
 }
 
 
-section
+.div_contenu
 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /*border: 3px solid darkslategrey;*/
   margin-bottom: 70px;
+  border-radius: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 .info_perso
 {
-  float: left;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 160px;
+  width: 95%;
 
 }
 
+.intro
+{
+  height: 100px;
+}
+
+
+.top { top: -100px; }
+.right { right: -100px; }
 
 .exp_pro
 {
+  border-radius: 10px;
+  height: 475px;
   clear: both;
 }
 
+.comptetence
+{
+  border-radius: 10px;
+
+}
 
 footer
 {
