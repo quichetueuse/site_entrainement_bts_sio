@@ -14,23 +14,23 @@ function calcul_moyenne()
     total_texte += "Voici la moyenne: " + moyenne + "\n";
     //case_texte.textContent += "Voici la moyenne: " + moyenne + "<br />";
 
-    if (moyenne <10)
+    if (moyenne < 10)
     {
         //case_texte.textContent += "Vous etes redoublant";
         total_texte += "Vous êtes redoublant";
     }
-    else if (moyenne >= 10 || moyenne < 12)
+    else if (moyenne >= 10 && moyenne < 12)
     {
         //case_texte.textContent += "Vous etes admis assez bien";
         total_texte += "Vous etes admis assez bien";
     }
-    else if (moyenne >= 12 || moyenne < 14)
+    else if (moyenne >= 12 && moyenne < 14)
     {
         //case_texte.textContent += "Vous etes admis bien";
         total_texte += "Vous etes admis bien";
     }
 
-    else if (moyenne >= 14 || moyenne < 16)
+    else if (moyenne >= 14 && moyenne < 16)
     {
         //case_texte.textContent += "Vous etes admis très bien";
         total_texte += "Vous etes admis très bien";
