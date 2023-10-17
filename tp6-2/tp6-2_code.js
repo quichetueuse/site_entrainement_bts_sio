@@ -74,10 +74,10 @@ function give_name()
 
     if (prenom === "King" || nom === "Crimson")
     {
-        case_texte.style.backgroundColor = "crimson";
-        case_texte.innerText = "Korega waga king crimson no noruiku da";
         var audio = new Audio('King_crimson.mp3');
         audio.play();
+        case_texte.style.backgroundColor = "crimson";
+        case_texte.innerText = "Korega waga king crimson no noruiku da";
 
     }
     else

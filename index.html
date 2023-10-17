@@ -4,14 +4,14 @@
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="feuille_style_site_1.css">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Acceuil</title>
 </head>
 <body style="background-color: aquamarine">
 <h1 style="color: red; font-family:'Wingdings'; text-align: center;"><u>Sommaire :</u></h1>
 <div id="wrap">
     <ul class="navbar">
-        <li><a href="" onmouseover="appear(this)" id="html_caller">HTML</a>
+        <li><a href="" onmouseover="appear(this)" id="html_caller" onfocusout="hide_dropdown()">HTML</a>
         <ul>
             <li class="element_sommaire case_html"><a href="page_acceuil.html">Page d'acceuil</a></li>
             <li class="element_sommaire case_html"><a href="page_2.html">Page 2</a></li>
@@ -19,7 +19,7 @@
             <li class="element_sommaire case_html"><a href="page_formulaire.html">Formulaire</a></li>
         </ul>
         </li>
-        <li><a href="#" id="css_caller" onmouseover="appear(this)">CSS</a>
+        <li><a href="#" id="css_caller" onmouseover="appear(this)" onfocusout="hide_dropdown()">CSS</a>
             <ul id="liste1">
                 <li class="element_sommaire case_css"><a href="tp3-2_css/index.html"> TP3</a> </li>
                 <li class="element_sommaire case_css"><a href="tp3_css/index.html">TP3.1</a></li>
@@ -36,7 +36,7 @@
 
         </li>
 
-        <li><a href="#" id="mission_caller" onmouseover="appear(this)">Missions</a>
+        <li><a href="#" id="mission_caller" onmouseover="appear(this)" onfocusout="hide_dropdown()">Missions</a>
             <ul>
                 <li class="element_sommaire case_mission"><a href="Mission1/index.html">Mission 1 </a> </li>
                 <li class="element_sommaire case_mission"><a href="mission2/PagePrincipale.html">Mission 2 (Aide orientation terminale)</a> </li>
@@ -44,25 +44,25 @@
                 <li class="element_sommaire case_mission"><a href="Mission4/CV.html">Mission 4 (CV)</a> </li>
             </ul>
 
-        <li><a href="#" id="certif_caller" onmouseover="appear(this)">Certifications</a>
+        <li><a href="#" id="certif_caller" onmouseover="appear(this) " onfocusout="hide_dropdown()">Certifications</a>
             <ul>
             </ul><li>
         </li>
 
 
-        <li><a href="" id="js_caller" onmouseover="appear(this)">JavaScript</a>
+        <li><a href="" id="js_caller" onmouseover="appear(this)" onfocusout="hide_dropdown()">JavaScript</a>
             <ul>
                 <li class="element_sommaire case_js"><a href="tp6-2/tp6-2.html">TP6-2 (test javascript)</a></li>
             </ul>
         </li>
 
 
-        <li><a href="" id="c#_caller" onmouseover="appear(this)">C#</a>
+        <li><a href="" id="c#_caller" onmouseover="appear(this)" onfocusout="hide_dropdown()">C#</a>
         </li>
-        <li><a href="" id="sql_caller" onmouseover="appear(this)">SQL</a>
+        <li><a href="" id="sql_caller" onmouseover="appear(this)" onfocusout="hide_dropdown()">SQL</a>
         </li>
 
-        <li><a href="" id="php_caller" onmouseover="appear(this)">PHP</a>
+        <li><a href="" id="php_caller" onmouseover="appear(this)" onfocusout="hide_dropdown()">PHP</a>
         </li>
 
 
@@ -75,15 +75,30 @@
 
 
 </div>
-
+<!--
 <div class="test_anim">
 
 </div>
 <div class="test_anim2"></div>
 
-<div style="float: right; width: 300px; height: 300px; background-color: grey;" id="test"></div>
+
+
+<div style="float: right; width: 300px; height: 300px; background-color: grey;" id="test"></div>-->
+
+<audio style="position: absolute; right:    0; bottom:   0;" class="my_audio" controls preload="none" loop>
+    <source src="elevator_jam.mp4" type="audio/mp4">
+</audio>
+
 
 <script>
+
+
+    var audio = document.getElementsByClassName("my_audio")
+    audio.volume = 0.2; // ne marche pas car audio activé plus tard que le son
+
+
+    $(".my_audio").trigger('load');
+
 
     var style = document.createElement('style');
     style.type = 'text/css';
@@ -133,7 +148,7 @@
             console.log("sad")
         }
 
-        for (const widget of document.getElementsByClassName(current_dropdown))
+        for await (const widget of document.getElementsByClassName(current_dropdown))
         {
 //        for (let i=0; i< liste_menu.length; i++)
 //        {
@@ -150,7 +165,7 @@
             //document.getElementById("liste1").style.display = "block";
             div_test = document.getElementById("test");
 
-            document.getElementById("test").style.backgroundColor = "green";
+            //document.getElementById("test").style.backgroundColor = "green";
             //widget.style.fontSize = "25px";
             //document.getElementsByClassName("case_css")[0].style.color = "white";
             // widget.style.borderLeft = "1px solid #444444";
@@ -158,7 +173,7 @@
             // widget.style.borderTop ="1px solid #c9d4d8";
             // widget.style.borderBottom  = "1px solid #444444";
 
-            div_test.style.animation = "animScale 1000ms ease-in-out infinite, animOpacity 1000ms 1000ms ease-in-out infinite";
+            //div_test.style.animation = "animScale 1000ms ease-in-out infinite, animOpacity 1000ms 1000ms ease-in-out infinite";
             widget.style.animation = "fadeIn 1000ms ease-in-out, \n" +
                 "    animScale 1000ms ease-in-out,\n" +
                 "    animOpacity 1000ms ease-in-out,\n" +
@@ -188,8 +203,9 @@
         }
     }
 
-    function hide_dropdown()
+    async function hide_dropdown(element)
     {
+        console.log("Entering hide function")
         console.log(element.id)
         // document.getElementById("html_caller").onmouseover = function(event) {
         //     myFunction(event.target)
@@ -242,6 +258,19 @@
 
         }
 
+    }
+
+
+
+
+    function play_audio(task) {
+        if(task == 'play'){
+            $(".my_audio").trigger('play');
+        }
+        if(task == 'stop'){
+            $(".my_audio").trigger('pause');
+            $(".my_audio").prop("currentTime",0);
+        }
     }
 
 
