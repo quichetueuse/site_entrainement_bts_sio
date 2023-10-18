@@ -27,4 +27,5 @@ h1
     border: 5px outset blue;
     width: 600px;
     height: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

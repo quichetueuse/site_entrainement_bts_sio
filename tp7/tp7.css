@@ -1,0 +1,41 @@
+h1
+{
+    font-weight: bold;
+}
+
+#t1, #t2
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    height: 30px;
+    width: 10%;
+}
+
+
+#t3, #t4
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 10%;
+    margin: 10px;
+}
+
+button
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 75px;
+    height: 75px;
+    background-color: darkslategrey;
+    color: white;
+    margin: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover
+{
+    color: black;
+    background-color: grey;
+}

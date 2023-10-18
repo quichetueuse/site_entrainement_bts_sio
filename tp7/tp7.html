@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="tp7.css">
+    <script src="tp7.js"></script>
+    <title>Calculatrice</title>
+</head>
+<body style="background-color: aquamarine; text-align: center;">
+    <h1>Calculatrice</h1>
+    <br>
+    <br>
+    <div>
+        <input class="t" placeholder="Premier Chiffre" name="t1" type="number" id="t1">
+        <input class="t" placeholder="Deuxième Chiffre" name="t2" type="number" id="t2">
+    </div>
+    <div>
+        <button onclick="getResult(this)" id="btn_add">+</button>
+        <button onclick="getResult(this)" id="btn_substract">-</button>
+        <button onclick="getResult(this)" id="btn_multiply">*</button>
+        <button onclick="getResult(this)" id="btn_divide">/</button>
+        <button onclick="getResult(this)" id="btn_modulo">%</button>
+    </div>
+    <div>
+        <!--<button onclick="">Parité</button>-->
+        <button onclick="permut_numbers()">Permuter</button>
+    </div>
+    <div>
+        <input class="t34" placeholder="Résultat" name="t3" type="number" id="t3" readonly>
+    </div>
+    <div>
+        <input class="t34" placeholder="Parité du nombre" name="t4" type="text" id="t4" readonly>
+    </div>
+
+</body>
+</html>
