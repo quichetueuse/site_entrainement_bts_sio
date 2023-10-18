@@ -1,0 +1,348 @@
+body
+{
+    font-family: Verdana, Calibri, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* on utilise > pour ne cibler que la liste ul qui est un enfant direct de nav*/
+nav > ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Enleve les puce devant chaqueelement de la liste*/
+nav li
+{
+    list-style-type: none;
+}
+
+/*on affiche seulement les elements li correspondant a
+nos onglet de menu de ligne (coté a coté)
+ */
+nav > ul > li
+{
+    float:left;
+}
+
+.submenu
+{
+    display: none;
+}
+
+/* on rend la case a cocher invisible*/
+nav input[type=checkbox]
+{
+    display: none;
+}
+
+/* on cache le bouton affichant le menu mobile*/
+.menu-mobile
+{
+    display: none;
+}
+
+nav
+{
+    width: 100%;
+    background-color: blueviolet;
+}
+
+/* on affiche seulement les elements li correspondant a
+nos onglet de menu de ligne (cote a cote)
+ */
+nav > ul > li
+{
+    float: left;
+    position: relative;
+}
+
+/* un hack clearfix tres connu*/
+nav > ul::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul > li > a
+{
+    padding: 20px 30px;
+    color: #FFF;
+}
+
+nav li:hover .submenu
+{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 10000;
+}
+
+.submenu li
+{
+    border-bottom: 1px solid #CCC;
+}
+
+.submenu li a
+{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+
+.menu-html:hover
+{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(230, 100, 40, 0.15);
+}
+
+.menu-css:hover
+{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+
+.menu-js:hover
+{
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-php:hover
+{
+    border-top: 5px solid green;
+    background-color: RGBa(0, 128, 0, 0.15);
+}
+
+.menu-sql:hover
+{
+    border-top: 5px solid orange;
+    background-color: RGBa(255, 165, 0, 0.15);
+}
+
+.menu-mission:hover
+{
+    border-top: 5px solid pink;
+    background-color: RGBa(255, 192, 203, 0.15);
+}
+
+
+.menu-certif:hover
+{
+    border-top: 5px solid red;
+    background-color: RGBa(255, 0, 0, 0.15);
+}
+
+.menu-bonus:hover
+{
+    border-top: 5px solid #899562;
+    background-color: RGBa(137, 149, 98, 0.15);
+}
+
+
+
+
+nav > ul > li:hover a
+{
+    padding: 15px 30px 20px 30px;
+}
+
+.menu-html .submenu
+{
+    background-color: RGB(230, 100, 40);
+}
+
+.menu-css .submenu
+{
+    background-color: RGB(000, 160, 240);
+}
+
+.menu-js .submenu
+{
+    background-color: RGB(251, 216, 99);
+}
+
+.menu-php .submenu
+{
+    background-color: green;
+}
+
+.menu-sql .submenu
+{
+    background-color: orange;
+}
+
+.menu-mission .submenu
+{
+    background-color: pink;
+}
+
+.menu-certif .submenu
+{
+    background-color: red;
+}
+
+.menu-bonus .submenu
+{
+    background-color: #899562;
+}
+
+.submenu li:hover a
+{
+    color: #EEE;
+    font-weight: bold;
+}
+
+.menu-html .submenu li:hover {
+    background-color: RGB(210, 77, 60);
+
+}
+
+.menu-css .submenu li:hover
+{
+    background-color: RGB(000, 115, 200);
+}
+
+.menu-js .submenu li:hover
+{
+    background-color: RGB(200, 165, 75);
+}
+
+.menu-php .submenu li:hover
+{
+    background-color: RGB(200, 165, 75);
+}
+.menu-sql .submenu li:hover
+{
+    background-color: RGB(200, 165, 75);
+}
+
+.menu-mission .submenu li:hover
+{
+    background-color: deeppink;
+}
+.menu-certif .submenu li:hover
+{
+    background-color: darkred;
+}
+
+.menu-bonus .submenu li:hover
+{
+    background-color: RGB(200, 165, 75);
+}
+
+
+
+
+
+
+
+
+/* lorsque la case est coché (des que l'utilisateur appuie sur notre bouton), le menu entier s'affiche*/
+nav input[type=checkbox]:checked ~ ul
+{
+    display: block;
+}
+
+/* on modifie le style de notr menu pour son affichage responsive*/
+@media screen and (max-width: 680px)
+{
+    .menu-mobile
+    {
+        display: block;
+        color: #fff;
+        background-color: rgba(29, 197, 151, 0.97);
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav ul
+    {
+        display: none;
+    }
+
+    nav ul li, nav ul li a
+    {
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a, nav ul li:hover a
+    {
+        padding: 10px 0px 10px 0px;
+    }
+    nav li:hover .submenu
+    {
+        display: block;
+        position: static;
+    }
+}
+
+/*
+#myVideo
+{
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+/*
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+
+}
+*/
+
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.video-container video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%;
+    min-height: 100%;
+
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
