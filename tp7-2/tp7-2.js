@@ -24,6 +24,6 @@ function calc_prix()
 
     input_net2.value = (input6.value * input7.value) * ((100-input8.value) / 100);
 
-    input_total.value = input_net1.value + input_net2.value + "€";
+    input_total.value = Number(input_net1.value) + Number(input_net2.value);
 
 }
