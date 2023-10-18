@@ -46,8 +46,14 @@
 
         <li><a href="#" id="certif_caller" onmouseover="appear(this) " onfocusout="hide_dropdown()">Certifications</a>
             <ul>
-            </ul><li>
-        </li>
+                <li class="element_sommaire case_certif"><a href="Certifications/Certification_Module1.pdf">Certification MOOC Module 1</a></li>
+                <li class="element_sommaire case_certif"><a href="Certifications/Certification_Module2.pdf">Certification MOOC Module 2</a></li>
+                <li class="element_sommaire case_certif"><a href="Certifications/Certification_Module3.pdf">Certification MOOC Module 3</a></li>
+                <li class="element_sommaire case_certif"><a href="Certifications/Certification_Module4.pdf">Certification MOOC Module 4</a></li>
+                <li class="element_sommaire case_certif"><a href="Certifications/Certification_Module5.pdf">Certification MOOC Module 5</a></li>
+
+
+            </ul>
 
 
         <li><a href="" id="js_caller" onmouseover="appear(this)" onfocusout="hide_dropdown()">JavaScript</a>
@@ -143,6 +149,11 @@
         {
             current_dropdown = "case_js";
             console.log("Nice mission");
+        }
+        else if (element.id === "certif_caller")
+        {
+            current_dropdown = "case_certif";
+            console.log("Nice certifications");
         }
         else
         {
