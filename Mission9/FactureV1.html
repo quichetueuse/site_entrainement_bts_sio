@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Facturestyle.css">
+  <script src="Facture_scriptV1.js"></script>
+  <title>Facture js</title>
+</head>
+<body>
+
+<header id="myheader">
+  <br>
+  <img src="imgpng.png" height="100px" width="75px" style="float: left; margin-left: 25px; margin-right: 10px;">
+
+  <h3>Nom de la compagnie</h3>
+  <p>Adrèsse postal</p>
+  <p>Details du contact</p>
+
+  <h1 id="Gros_titre">FACTURE</h1>
+</header>
+
+<table id="tableau_facture" CELLSPACING="0">
+  <tr>
+    <th class="table_header" style="width: 70%;">DESCRIPTION</th>
+    <th class="table_header" style="width: 10%;">QUANTITÉ</th>
+    <th class="table_header" style="width: 10%;">PRIX UNITAIRE</th>
+    <th class="table_header" style="width: 10%;">TOTAL</th>
+  </tr>
+  <tr class="color1">
+    <td class="right_line desc"><input type="text" class="input_desc color1" value="Obj1"></td>
+    <td class="right_line qte"><input type="number" class="input_qte color1" value="2"></td>
+    <td class="right_line prx"><input type="number" class="input_prx color1" value="332"></td>
+    <td class="right_line tt"><input type="number" class="input_tt color1" readonly value="664"></td>
+
+  </tr>
+
+  <tr class="color2">
+    <td class="right_line desc"><input type="text" class="input_desc color2" value="Obj2"></td>
+    <td class="right_line qte"><input type="number" class="input_qte color2" value="10"></td>
+    <td class="right_line prx"><input type="number" class="input_prx color2" value="27"></td>
+    <td class="right_line tt"><input type="number" class="input_tt color2" readonly value="270"></td>
+  </tr>
+  <tr class="color1">
+    <td class="right_line desc"><input type="text" class="input_desc color1" value="Obj3"></td>
+    <td class="right_line qte"><input type="number" class="input_qte color1" value="4"></td>
+    <td class="right_line prx"><input type="number" class="input_prx color1" value="33.33"></td>
+    <td class="right_line tt"><input type="number" class="input_tt color1" readonly value="134"></td>
+  </tr>
+
+  <tr class="color2">
+    <td class="right_line desc"><input type="text" class="input_desc color2" value="Obj4"></td>
+    <td class="right_line qte"><input type="number" class="input_qte color2" value="1"></td>
+    <td class="right_line prx"><input type="number" class="input_prx color2" value="299.99"></td>
+    <td class="right_line tt"><input type="number" class="input_tt color2" readonly value="270"></td>
+  </tr>
+  <tr class="color1" id="input_row">
+    <td class="right_line"><input type="text" id="description" class="input_desc" value="Item"></td>
+    <td class="right_line"><input type="number" id="quantite" class="input_qte" value="1"></td>
+    <td class="right_line"><input type="number" id="prix" value="0" class="input_prx"></td>
+    <td class="right_line"><input type="number" id="total" value="0.00" readonly class="input_tt"></td>
+  </tr>
+</table>
+<button onclick="Add_row()" title="Entrez dans la ligne ci-dessus toutes les informations!">Ajouter une ligne</button>
+<button onclick="remplir()">Remplir automatiquement</button>
+<button onclick="reset()">Annuler</button>
+<button onclick="calculer()">Calculer</button>
+<button id="btnClear" onclick="clear_row()">clear line</button>
+
+</body>
+</html>

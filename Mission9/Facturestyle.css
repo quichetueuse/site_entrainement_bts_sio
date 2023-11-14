@@ -1,0 +1,77 @@
+#myheader
+{
+  height: 150px;
+  background-color: aquamarine;
+  margin: 0;
+}
+
+#Gros_titre
+{
+  float: right;
+  color: darkgrey;
+  font-weight: bold;
+  font-size: 32px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+
+#tableau_facture
+{
+  /*border-top: 1px solid black;*/
+  /*border-bottom: 1px solid black;*/
+  border: 1px solid black;
+  margin: 0;
+
+}
+
+.right_line
+{
+  border-right: 1px solid black;
+}
+.table_header
+{
+  color: white;
+  background-color: #3388CC;
+}
+
+.color1
+{
+  background-color: white;
+}
+
+.color2
+{
+  background-color: lightgrey;
+}
+
+
+/*#input_row*/
+/*{*/
+/*  text-align: center;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*}*/
+
+
+.input_desc
+{
+  border: none;
+  width: 99%;
+}
+
+.input_qte
+{
+  border: none;
+  width: 95%;
+}
+.input_prx
+{
+  border: none;
+  width: 95%;
+}
+.input_tt
+{
+  border: none;
+  width: 95%;
+}

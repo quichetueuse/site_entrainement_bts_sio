@@ -1,0 +1,200 @@
+#header1
+{
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 0;
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: bold;
+    background-color: darkslategrey;
+    margin-bottom: 30px;
+}
+
+#footer1
+{
+    border-radius: 10px;
+    text-align: center;
+    width: 99%;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 0;
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: bold;
+    background-color: darkslategrey;
+    margin-top: 20px;
+    clear: both;
+}
+#menu
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+.container_menu
+{
+    background-color: darkslategrey;
+    text-align: center;
+    border: 3px solid white;
+    float: left;
+    border-radius: 10px;
+    width: 15%;
+    height: 300px;
+    margin-right: 20px;
+}
+#case_milieu
+{
+    background-color: darkslategrey;
+    border-radius: 10px;
+    border: 3px solid white;
+    /*width: 1000px;*/
+    width: 83%;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#case_presentation
+{
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+#photo
+{
+    border: 3px solid white;
+    width: 200px;
+    border-radius: 100px;
+    height: 200px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+/*.photo*/
+/*{*/
+/*    border-radius: 50px;*/
+/*    border: 3px solid white;*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    float: right;*/
+/*}*/
+
+
+
+h2
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+    color:blueviolet;
+}
+
+
+
+
+
+
+
+
+div#menu
+{
+    width: 100px;
+}
+
+div#menu ul
+{
+    padding: 0;
+    width: 100px; /*to change width of menu*/
+    border: 1px solid;
+    margin: 0px;
+}
+
+/*On positionne les elements du menu*/
+div#menu ul li
+{
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid;  /*bordure de séparations d'élément*/
+}
+
+
+div#menu ul ul
+{
+    position: absolute;
+    top: 0;
+    left: 100px; /*100px correspond au décalage a droite, on décale de la taille du ul de base*/
+}
+
+div#menu li a
+{
+    text-decoration: none;
+}
+
+div#menu ul ul
+{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display: none;
+}
+
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2,
+div#menu ul.niveau2 li.sousmenu:hover ul.niveau3
+{
+    display: block;
+}
+
+/*fond blanc pour le menu*/
+div#menu a
+{
+    color: #000000;
+}
+
+/*fond different au survol de la souris entre les sous menu et les basique*/
+div#menu li:hover
+{
+    background: #EDD;
+}
+
+/*on rajoute une bordure a gauche et des paddings, on doit doc reajuster la taille 100 de bordure +8 de padding -84*/
+
+div#menu li.sousmenu:hover
+{
+    background: #EBB;
+}
+
+div#menu li a
+{
+    text-decoration: none;
+    padding: 4px 0 4px 8px;
+    display: block;
+    border-left: 8px solid #BBB;
+    width: 84px;
+}
+
+/*la bordure de chaque couleur a une couleur de survol*/
+div#menu li a:hover
+{
+    border-left-color: blueviolet;
+}
+
+div#menu ul ul li a:hover
+{
+    border-left-color: #00FF00;
+}
+div#menu ul ul ul li a:hover
+{
+    border-left-color: #0000FF;
+}

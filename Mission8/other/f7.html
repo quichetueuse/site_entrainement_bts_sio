@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>f7</title>
+</head>
+<body>
+<h1>Mes <span>Cocktails préférés</span></h1>
+<p>Mojito</p>
+<p>Gin Fizz</p>
+<p>Bloody Mary</p>
+<p>Long island Iced Tea</p>
+<p>Mais si je ne devais qu'en retenir qu'un : <strong id="cocktail"></strong></p>
+
+
+<button onclick="change_text()">Effectuer la modification</button>
+<script>
+
+  function change_text()
+  {
+    document.getElementById("cocktail").innerText = "Long island Iced Tea";
+  }
+
+
+
+</script>
+</body>
+</html>
