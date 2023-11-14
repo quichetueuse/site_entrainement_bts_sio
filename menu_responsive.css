@@ -269,7 +269,7 @@ video {
 
 	/* Center the video */
 	position: absolute;
-	bottom: 100%
+	bottom: 100%;
 	/* 
 	top: 50%;
 	left: 50%;
@@ -345,7 +345,7 @@ nav input[type=checkbox]:checked ~ ul
 
 		/* Center the video */
 		position: absolute;
-		bottom: 100%
+		bottom: 100%;
 		/* 
 		top: 50%;
 		left: 50%;
