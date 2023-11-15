@@ -61,14 +61,20 @@
   </tr>
 </table>
 
-<label>Sous total : </label> <input id="soustotal_container" type="text" readonly>
-
-
+<div id="div_value">
+<label>Sous total : </label> <input id="soustotal_container" class="value_container" type="text" readonly> <br>
+<label>Remise : </label> <input id="remise_container" type="text" class="value_container" value="10"> <br>
+<label>Sous total Moins les remises : </label> <input id="totalwithremise_container" type="text" class="value_container" readonly> <br>
+<label>Taux d'imposition : </label> <input id="tauximposition_container" type="text" class="value_container" value="10"> <br>
+<label>Taxes totales : </label> <input id="taxetotal_container" type="text" class="value_container" readonly> <br>
+<label>Frais d'expedition|Manutention : </label> <input id="fraisexpedition_container" type="text" class="value_container" value="5"> <br>
+<hr>
+<label>Solde : </label> <input id="solde_container" type="text" class="value_container" readonly> <br>
+</div>
 <button onclick="Add_row()" title="Entrez dans la ligne ci-dessus toutes les informations!">Ajouter une ligne</button>
 <button onclick="remplir()">Remplir automatiquement</button>
 <button onclick="reset()">Annuler</button>
 <button onclick="calculer()">Calculer</button>
 <button id="btnClear" onclick="clear_row()">clear line</button>
-
 </body>
 </html>

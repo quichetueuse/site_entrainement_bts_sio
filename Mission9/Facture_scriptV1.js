@@ -121,6 +121,34 @@ function calculer()
   {
     soustotal += Number(liste_tt[i].value);
   }
+
+  //set sous total
   console.log(soustotal);
-  document.getElementById("soustotal_container").innerHTML = soustotal;
+  document.getElementById("soustotal_container").value = soustotal;
+
+  //get remise
+  remise_value = Number(document.getElementById("remise_container").value);
+  console.log(`Remise: ${remise_value}`)
+
+  //set sous total moins remise
+  sous_total_moins_remises = soustotal * ((100 - remise_value) /100).toFixed(2);
+  document.getElementById("totalwithremise_container").value = sous_total_moins_remises;
+  console.log(`Sous total moins remise: ${sous_total_moins_remises}`);
+  //get taux d'imposition
+  tauximposition = Number(document.getElementById("tauximposition_container").value);
+  console.log(`Taux d'imposition: ${tauximposition}`)
+
+  //set taxe total
+  taxe_totale = (soustotal * (tauximposition) / 100).toFixed(2);
+  document.getElementById("taxetotal_container").value = taxe_totale;
+  console.log(`taxe total: ${taxe_totale}`)
+
+  //get frais expedition
+  frais_expedition = Number(document.getElementById("fraisexpedition_container").value);
+  console.log(`Frais d'éxpéditions: ${frais_expedition}`)
+
+  // set solde
+  solde_ttc = (Number(sous_total_moins_remises) + Number(taxe_totale) + Number(frais_expedition));
+  document.getElementById("solde_container").value = solde_ttc;
+  console.log(`taxe ttc: ${solde_ttc}`);
 }

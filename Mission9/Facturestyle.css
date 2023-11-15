@@ -77,10 +77,24 @@
 }
 
 
-#soustotal_container
+/*#soustotal_container*/
+/*{*/
+/*  text-align: center;*/
+/*  border: 1px solid black;*/
+/*  height: 20px;*/
+/*  width: 50px;*/
+/*}*/
+
+.value_container
 {
   text-align: center;
   border: 1px solid black;
   height: 20px;
   width: 50px;
+}
+
+#div_value
+{
+  border: 1px solid black;
+  float: right;
 }
