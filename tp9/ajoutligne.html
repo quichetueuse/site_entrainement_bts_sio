@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajout ligne</title>
+</head>
+<body>
+<label>Nom: </label><input type="text" id="input_name">
+<label>Age: </label><input type="text" id="input_age">
+<br>
+<button onclick="addRow()">Ajouter ligne</button>
+<table id="mytable" style="border: 1px solid black; width: 70%;">
+    <tr>
+        <td style="border-right: 1px solid black;">Nom</td>
+        <td style="border-right: 1px solid black;">Age</td>
+    </tr>
+    <tr>
+        <td style="border-right: 1px solid black;">Kévin</td>
+        <td style="border-right: 1px solid black;">18</td>
+    </tr>
+</table>
+
+<script>
+    function addRow()
+    {
+        name = document.getElementById("input_name").value;
+        age = document.getElementById("input_age").value;
+
+        if(age == "" || name == "")
+        {
+            alert("age ou nom vide");
+            return;
+        }
+
+        if(Number(age) < 10 || Number(age) > 20)
+        {
+            alert("Age incorrecte");
+            return;
+        }
+
+        table = document.getElementById("mytable");
+        new_row = table.insertRow(-1);
+        cell_nom = new_row.insertCell(0);
+        cell_age = new_row.insertCell(1);
+        cell_nom.innerHTML = name;
+        cell_age.innerHTML = age;
+    }
+
+
+</script>
+</body>
+</html>

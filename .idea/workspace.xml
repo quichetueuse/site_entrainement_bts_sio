@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="Mise à jour" />
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="Mise à jour&#10;- Ajout Mission 7, 8, 9&#10;- Ajout TP 7-3, 9">
+      <change afterPath="$PROJECT_DIR$/tp9/ajoutligne.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp9/connexion2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission8/Multifunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mission8/Multifunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission9/FactureV1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mission9/FactureV1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission9/Facture_scriptV1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mission9/Facture_scriptV1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission9/Facturestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Mission9/Facturestyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp9/tp9.css" beforeDir="false" afterPath="$PROJECT_DIR$/tp9/tp9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp9/tp9.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp9/tp9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp9/tp9.js" beforeDir="false" afterPath="$PROJECT_DIR$/tp9/tp9.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +23,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,18 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +65,8 @@
       <updated>1697656062105</updated>
       <workItem from="1697656063246" duration="2043000" />
       <workItem from="1697725424434" duration="7000" />
+      <workItem from="1699999584083" duration="294000" />
+      <workItem from="1700032340200" duration="9991000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -55,7 +76,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697659820383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mise à jour&#10;- Ajout Mission 7, 8, 9&#10;- Ajout TP 7-3, 9">
+      <option name="closed" value="true" />
+      <created>1699999695989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699999695989</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Mise à jour&#10;- Ajout Mission 7, 8, 9&#10;- Ajout TP 7-3, 9">
+      <option name="closed" value="true" />
+      <created>1699999719140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699999719140</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,6 +100,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mise à jour" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour" />
+    <MESSAGE value="Mise à jour&#10;- Ajout Mission 7, 8, 9&#10;- Ajout TP 7-3, 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour&#10;- Ajout Mission 7, 8, 9&#10;- Ajout TP 7-3, 9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Mission9/Facture_scriptV1.js</url>
+          <line>69</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

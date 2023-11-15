@@ -14,7 +14,8 @@ h1
 {
     border: 3px solid black;
     border-radius: 10px;
-    background-color: grey;
+    background-color: darkslategrey;
+    color:white;
     transition: 0.3s ease-in-out;
     width: 150px;
     height: 50px;
@@ -29,15 +30,28 @@ h1
 {
 /*    transform: translate(4px, 4px);*/
     transform: scale(1.01);
-    background-color: darkslategrey;
+    background-color: grey;
+
 }
 
-.div_container
+#div_container
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 40%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#btn_container
 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
     width: 20%;
+    margin-bottom: 20px;
     border: 1px solid black;
     background-color: white;
 }

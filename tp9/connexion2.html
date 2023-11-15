@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion 2</title>
+</head>
+<body style="text-align: center;">
+
+<div id="container" style="border: 1px solid black; height: 150px; width: 250px; text-align: center;  margin-right: auto; margin-left: auto;">
+    <br>
+    <br>
+    <label>Username :</label><input type="text" id="input_user">
+    <br>
+    <br>
+    <label>Password :</label><input type="password" id="input_password">
+    <br>
+    <br>
+    <button onclick="login()" style="text-align: center;">Login</button>
+
+</div>
+
+
+<script>
+
+    function login()
+    {
+        user = document.getElementById("input_user").value;
+        password = document.getElementById("input_password").value;
+
+        if(user == "admin" && password == "admin")
+        {
+            document.write("Accès validé");
+            document.body.style.backgroundColor = "green";
+        }
+        else
+        {
+            document.write("Accès refusés!");
+            document.body.style.backgroundColor = "red";
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

@@ -62,7 +62,9 @@ function remplir()
   liste_tt = document.getElementsByClassName("input_tt");
 
 
-  for (var i = 0; i <liste_desc.length; i++)
+
+
+  for (var i = 0; i <liste_desc.length - 1; i++)
   {
     var idesc = Math.floor(table_desc.length * Math.random());
     liste_desc[i].value = table_desc[idesc];
@@ -85,7 +87,16 @@ function print(elem)
 }
 
 
-
+// function removeItem() {
+//   var last = liste_desc[liste_desc.length - 1];
+//   last.parentNode.removeChild(last);
+//   var last = liste_prix[liste_prix.length - 1];
+//   last.parentNode.removeChild(last);
+//   var last = liste_quantite[liste_quantite.length - 1];
+//   last.parentNode.removeChild(last);
+//   var last = liste_tt[liste_tt.length - 1];
+//   last.parentNode.removeChild(last);
+// }
 
 function clear_row()
 {
@@ -106,9 +117,10 @@ function calculer()
   liste_tt = document.getElementsByClassName("input_tt");
 
   soustotal = 0;
-  for (var i = 0; i <liste_tt.length; i++)
+  for (var i = 0; i <liste_tt.length-1; i++)
   {
     soustotal += Number(liste_tt[i].value);
   }
   console.log(soustotal);
+  document.getElementById("soustotal_container").innerHTML = soustotal;
 }

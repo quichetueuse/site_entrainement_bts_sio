@@ -332,3 +332,4 @@ function go_to_bonus()
   experiment.src = "about:blank";
   experiment.setAttribute("src","other/SuiteMission8.html");
 }
+

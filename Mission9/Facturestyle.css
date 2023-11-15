@@ -75,3 +75,12 @@
   border: none;
   width: 95%;
 }
+
+
+#soustotal_container
+{
+  text-align: center;
+  border: 1px solid black;
+  height: 20px;
+  width: 50px;
+}
