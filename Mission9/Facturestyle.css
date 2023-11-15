@@ -3,6 +3,9 @@
   height: 150px;
   background-color: aquamarine;
   margin: 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 #Gros_titre
@@ -15,9 +18,14 @@
   margin-top: 25px;
 }
 
-
+#tableau_container
+{
+  border-radius: 10px;
+  border: 1px solid white;
+}
 #tableau_facture
 {
+/*  border-radius: 10px;*/
   /*border-top: 1px solid black;*/
   /*border-bottom: 1px solid black;*/
   border: 1px solid black;
@@ -91,10 +99,50 @@
   border: 1px solid black;
   height: 20px;
   width: 50px;
+  margin: 10px;
+  border-radius: 5px;
+
 }
 
 #div_value
 {
-  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px 0;
+  background-color: lightcoral;
+  border: 1px solid white;
   float: right;
+  text-align: right;
+}
+
+.small_container
+{
+  clear: both;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.btn
+{
+  /*float: right;*/
+  height: 50px;
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 15px;
+  font-weight: bold;
+  color: slateblue;
+  background-color: lightgreen;
+  transition: 0.3s ease-in-out;
+
+  float: left;
+}
+
+.btn:hover
+{
+  color: white;
+  background-color: lightskyblue;
+  transform: scale(1.01);
 }

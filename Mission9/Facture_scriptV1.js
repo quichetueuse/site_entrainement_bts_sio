@@ -54,7 +54,7 @@ function reset()
 
 function remplir()
 {
-  const table_desc = Array("Téléphone Ios", "Téléphone Android", "Stick de ram DDr5 16go 7600Mhz Cl40", "Clé usb 3.2 gen 2x2 128go", "Souris de gamer", "Clavier de gamer", "écran 22 pouce Hp");
+  const table_desc = Array("Téléphone Ios", "Téléphone Android", "Stick de ram DDr5 16go 7600Mhz Cl40", "Clé usb 3.2 gen 2x2 128go", "Souris de gamer", "Clavier de gamer", "écran 22 pouce Hp", "SSD nvme m.2 Samsung 990pro 1to pcie-4", "PC portable Hp Pavillon 15.6 pouces", "ThunderBolt 4 240W dock");
   liste_prix = document.getElementsByClassName("input_prx");
   //for (var i = 0; i < liste_prix.length; i++) { console.log(liste_prix[i].innerHTML); }
   liste_quantite = document.getElementsByClassName("input_qte");
@@ -148,7 +148,7 @@ function calculer()
   console.log(`Frais d'éxpéditions: ${frais_expedition}`)
 
   // set solde
-  solde_ttc = (Number(sous_total_moins_remises) + Number(taxe_totale) + Number(frais_expedition));
+  solde_ttc = (Number(sous_total_moins_remises) + Number(taxe_totale) + Number(frais_expedition)).toFixed(2);
   document.getElementById("solde_container").value = solde_ttc;
   console.log(`taxe ttc: ${solde_ttc}`);
 }
