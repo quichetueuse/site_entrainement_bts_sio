@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="modif index">
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="Ajout du tp4 SQL bibliotheque">
+      <change afterPath="$PROJECT_DIR$/TP_SQL_4/Concepteur_Biblio.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_SQL_4/bd_biblio.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_SQL_4/logo_db.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_SQL_4/TP_SQL_4.css" beforeDir="false" afterPath="$PROJECT_DIR$/TP_SQL_4/TP_SQL_4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_SQL_4/TP_SQL_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP_SQL_4/TP_SQL_4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/_Workspace/git/site_entrainement_bts_sio_ssh/TP_SQL_4&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -49,7 +55,11 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_4" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_3" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_2" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_1" />
@@ -82,6 +92,8 @@
       <workItem from="1701241956381" duration="2788000" />
       <workItem from="1701249287134" duration="76000" />
       <workItem from="1701249373363" duration="594000" />
+      <workItem from="1701251886165" duration="303000" />
+      <workItem from="1701846836131" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -203,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701247869925</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Ajout du tp4 SQL bibliotheque">
+      <option name="closed" value="true" />
+      <created>1701252172643</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701252172643</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +242,8 @@
     <MESSAGE value="ajout tp 1 sql css" />
     <MESSAGE value="Ajout du tp3 SQL (CInéma)" />
     <MESSAGE value="modif index" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif index" />
+    <MESSAGE value="Ajout du tp4 SQL bibliotheque" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du tp4 SQL bibliotheque" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

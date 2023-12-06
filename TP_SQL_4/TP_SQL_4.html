@@ -14,13 +14,29 @@
 <body style="text-align: center; background-color: aquamarine;">
 <div id="container">
 
-    <h1 style="color: white">Location de voiture</h1>
-    <img src='Capture%20MCD.PNG' width="600" height="400" style="border: 1px solid black; text-align: center">
+    <h1 style="color: white">Bases de Données</h1>
+    <img id="img_container" src='logo_db.jpg' width="600" height="400" style="border: 1px solid black; text-align: center">
     <br>
     <br>
     <br>
     <!--    <button onclick="show_img()">Voir l'image du concepteur de données</button>-->
-    <button onclick="document.location.href ='BD_Biblio'">télécharger le fichier SQL</button>
+    <button onclick="document.location.href ='BD_Biblio'">télécharger le fichier SQL(Locations de voitures)</button>
+    <button onclick="change_img()">Afficher Le Concepteur</button>
+
+    <button onclick="document.location.href ='bd_biblio.sql'">télécharger le fichier SQL(Bibliothèque)</button>
+    <button onclick="change_img2()">Afficher Le Concepteur</button>
 </div>
+
+<script>
+    function change_img()
+    {
+        document.getElementById("img_container").src = 'Capture%20MCD.PNG';
+    }
+    function change_img2()
+    {
+        document.getElementById("img_container").src = 'Concepteur_Biblio.PNG';
+    }
+</script>
+
 </body>
 </html>
