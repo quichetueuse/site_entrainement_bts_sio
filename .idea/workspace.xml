@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="Ajout de la certification du MOOC NumAcadémie">
-      <change afterPath="$PROJECT_DIR$/TP_SQL_BINOME/TP_SQL_BINOME.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP_SQL_BINOME/TP_SQL_BINOME.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP_SQL_BINOME/concepteur_bdpays.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP_SQL_BINOME/pays_bd.sql" afterDir="false" />
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="Ajout de l'entrainement de base de donnée [Pays]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +51,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_BINOME" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_BINOME" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\Certifications" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\Certifications\tp7-4" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_2" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_4" />
-      <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_3" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,7 +93,7 @@
       <workItem from="1701846836131" duration="2661000" />
       <workItem from="1701875078691" duration="851000" />
       <workItem from="1702389531443" duration="52000" />
-      <workItem from="1702459908874" duration="303000" />
+      <workItem from="1702459908874" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -251,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701875975672</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Ajout de l'entrainement de base de donnée [Pays]">
+      <option name="closed" value="true" />
+      <created>1702460233852</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702460233852</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +276,8 @@
     <MESSAGE value="modif index" />
     <MESSAGE value="Ajout du tp4 SQL bibliotheque" />
     <MESSAGE value="Ajout de la certification du MOOC NumAcadémie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la certification du MOOC NumAcadémie" />
+    <MESSAGE value="Ajout de l'entrainement de base de donnée [Pays]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de l'entrainement de base de donnée [Pays]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
