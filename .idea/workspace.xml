@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="premier pas php">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/premierpas_php/premierpas_php.php" beforeDir="false" afterPath="$PROJECT_DIR$/premierpas_php/premierpas_php.php" afterDir="false" />
-    </list>
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="ajout du fichier premierpas_php.php a l'index.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +117,7 @@
       <workItem from="1702892977642" duration="4141000" />
       <workItem from="1702902581548" duration="871000" />
       <workItem from="1702909260980" duration="2708000" />
-      <workItem from="1702912496094" duration="1654000" />
+      <workItem from="1702912496094" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -306,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702904648579</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="ajout du fichier premierpas_php.php a l'index.html">
+      <option name="closed" value="true" />
+      <created>1702914440677</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1702914440677</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +336,8 @@
     <MESSAGE value="Ajout du fichiers des requetes lié a la bd_pays" />
     <MESSAGE value="pour le demi point" />
     <MESSAGE value="premier pas php" />
-    <option name="LAST_COMMIT_MESSAGE" value="premier pas php" />
+    <MESSAGE value="ajout du fichier premierpas_php.php a l'index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout du fichier premierpas_php.php a l'index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
