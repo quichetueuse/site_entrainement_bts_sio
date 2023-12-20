@@ -35,3 +35,28 @@
     background-color: grey;
 
 }
+
+
+/*ajout ouvrage 1*/
+
+.input_ajout{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 15%;
+    margin: 5px;
+}
+
+.statut_requete
+{
+    resize: none;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 20%;
+    height: 100px;
+    font-weight: bold;
+    color: cornflowerblue;
+    margin: 10px;
+}

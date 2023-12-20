@@ -116,6 +116,7 @@ else
         transition: 0.3s ease-in-out;
         width: 125px;
         height: 50px;
+        text-align: center;
     }
 
     .ouvrage_btn:hover
