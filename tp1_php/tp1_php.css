@@ -1,0 +1,37 @@
+#titre
+{
+    font-size: 26px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+#div_bouton_php
+{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.btn_php
+{
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    width: 125px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 10px;
+
+}
+
+.btn_php:hover
+{
+    transform: scale(1.01);
+    color: black;
+    background-color: grey;
+
+}

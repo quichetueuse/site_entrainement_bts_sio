@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="ajout du fichier premierpas_php.php a l'index.html" />
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="petit correctif de la href php">
+      <change afterPath="$PROJECT_DIR$/tp1_php/connexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp1_php/rayon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp1_php/tp1_php.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp1_php/tp1_php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp1_php/tp1_php.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +127,8 @@
       <workItem from="1702892977642" duration="4141000" />
       <workItem from="1702902581548" duration="871000" />
       <workItem from="1702909260980" duration="2708000" />
-      <workItem from="1702912496094" duration="1954000" />
+      <workItem from="1702912496094" duration="2594000" />
+      <workItem from="1703056337646" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -311,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702914440677</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="petit correctif de la href php">
+      <option name="closed" value="true" />
+      <created>1702914719925</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702914719925</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +356,8 @@
     <MESSAGE value="pour le demi point" />
     <MESSAGE value="premier pas php" />
     <MESSAGE value="ajout du fichier premierpas_php.php a l'index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout du fichier premierpas_php.php a l'index.html" />
+    <MESSAGE value="petit correctif de la href php" />
+    <option name="LAST_COMMIT_MESSAGE" value="petit correctif de la href php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
