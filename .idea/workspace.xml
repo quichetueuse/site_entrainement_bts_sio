@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="petit correctif de la href php">
-      <change afterPath="$PROJECT_DIR$/tp1_php/connexion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp1_php/rayon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp1_php/tp1_php.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp1_php/tp1_php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp1_php/tp1_php.php" afterDir="false" />
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="ajout du tp1 php et modification du port-folio en conséquence">
+      <change afterPath="$PROJECT_DIR$/tp1_php/delete1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp1_php/delete2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp1_php/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp1_php/liste_ouvrage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp1_php/liste_ouvrage2.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp1_php/rayon.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/rayon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp1_php/tp1_php.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/tp1_php.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +129,7 @@
       <workItem from="1702902581548" duration="871000" />
       <workItem from="1702909260980" duration="2708000" />
       <workItem from="1702912496094" duration="2594000" />
-      <workItem from="1703056337646" duration="4059000" />
+      <workItem from="1703056337646" duration="10115000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -330,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702914719925</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ajout du tp1 php et modification du port-folio en conséquence">
+      <option name="closed" value="true" />
+      <created>1703060446844</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1703060446844</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +366,8 @@
     <MESSAGE value="premier pas php" />
     <MESSAGE value="ajout du fichier premierpas_php.php a l'index.html" />
     <MESSAGE value="petit correctif de la href php" />
-    <option name="LAST_COMMIT_MESSAGE" value="petit correctif de la href php" />
+    <MESSAGE value="ajout du tp1 php et modification du port-folio en conséquence" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout du tp1 php et modification du port-folio en conséquence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

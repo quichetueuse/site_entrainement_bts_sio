@@ -46,6 +46,7 @@ else
         $i++;
 //        header('Content-type: text/html; charset=utf-8');
     }?>
+<?php mysqli_close($conn)?>
 </body>
 </html>
 
