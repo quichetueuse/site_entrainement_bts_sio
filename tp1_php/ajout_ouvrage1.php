@@ -8,15 +8,49 @@
 
 </head>
 
+<script>
+
+    function update_row()
+    {
+        tableau = document.getElementById("tableau_retour");
+        row_index = tableau.rows.length -1;
+        console.log(tableau.rows[1].cells[0].innerHTML)
+        new_line = tableau.insertRow(row_index);
+        //
+        // console.log(new_line.id)
+        cell_codeouvrage = new_line.insertCell(0);
+        // cell_desc.className = "right_line desc";
+        cell_titreouvrage = new_line.insertCell(1);
+        // cell_quantite.className = "right_line qte";
+        cell_coderayon = new_line.insertCell(2);
+        // cell_prix.className = "right_line prx";
+        // cell_total = new_line.insertCell(3);
+        // cell_total.className = "right_line tt";
+        //
+        cell_codeouvrage.innerHTML = document.getElementById("code_ouvrage").value;
+        console.log(document.getElementById("code_ouvrage").value)
+        cell_titreouvrage.innerHTML = document.getElementById("titre_ouvrage").value;
+        console.log(document.getElementById("titre_ouvrage").value)
+        cell_coderayon.innerHTML = document.getElementById("rayon_ouvrage").value;
+        console.log(document.getElementById("rayon_ouvrage").value)
+        // cell_desc.innerHTML = "<input type='text' class='input_desc' value=''> ";
+        // cell_desc.getElementsByClassName("input_desc")[0].value = document.getElementById("description").value;
+        // cell_quantite.innerHTML = "<input type='number' class='input_qte'>";
+    }
+
+</script>
+
+
+
 <body style="background-color: aquamarine">
 <h1 style="font-size: 20px; font-weight: bold; color: red; text-align: center">Ajout d'un ouvrage</h1>
 <form method="post" style="text-align: center">
     <h2>Code de l'ouvrage</h2>
-    <input required type="text" name="code_ouvrage" placeholder="Entrez le code de l'ouvrage" class="input_ajout"><br>
+    <input required type="text" name="code_ouvrage" placeholder="Entrez le code de l'ouvrage" class="input_ajout" id="code_ouvrage"><br>
     <h2>Titre de l'ouvrage</h2>
-    <input required type="text" name="titre_ouvrage" placeholder="Entrez le titre de l'ouvrage" class="input_ajout"><br>
+    <input required type="text" name="titre_ouvrage" placeholder="Entrez le titre de l'ouvrage" class="input_ajout" id="titre_ouvrage"><br>
     <h2>Rayon de l'ouvrage</h2>
-    <select  required name="rayon_ouvrage" class="input_ajout">
+    <select  required name="rayon_ouvrage" class="input_ajout" id="rayon_ouvrage">
         <option value="0">--Choississez un rayon--</option>
 
                 <?php
@@ -39,8 +73,10 @@
                     echo "error";
                 }
                 $i = 1;
+                $all_rayon = array();
                 while($enre = mysqli_fetch_array($resultat))
                 {
+                    array_push($all_rayon, $enre['CodeRayon']);
         //        header('Content-type: text/plain; charset=utf-8');
                     ?>
                     <option name="<?php $i?>"><?php echo utf8_encode($enre['CodeRayon'])?></option>
@@ -52,9 +88,9 @@
                 mysqli_close($conn)?>
 
     </select><br>
-    <button class="ajout_ouvrage_btn" onclick="delete_ouvrage()" name="button1">Ajouter l'ouvrage</button><br>
+    <button class="ajout_ouvrage_btn" onclick="update_row()" name="button1">Ajouter l'ouvrage</button><br>
     <textarea readonly class="statut_requete" id="case_statut">Reussit</textarea>
-    <table style="border: 1px solid blueviolet; text-align: center; margin-right: auto; margin-left: auto;">
+    <table style="border: 1px solid blueviolet; text-align: center; margin-right: auto; margin-left: auto;" id="tableau_retour">
         <tr style="color: green; font-weight: bold; text-align: center"><td>CodeOuvrage</td><td>TitreOuvrage</td><td>CodeRayon</td></tr>
         <?php
         update_liste_ouvrage();?>
@@ -93,7 +129,7 @@
 document.getElementById('case_statut').value = 'ajout reussit';
 document.getElementById('case_statut').style.color = 'green';
 </script>";
-            update_liste_ouvrage();
+            //update_liste_ouvrage();
         }
         else
         {

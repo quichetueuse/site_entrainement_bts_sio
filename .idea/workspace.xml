@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="ajout des truc tp1 php">
-      <change afterPath="$PROJECT_DIR$/tp1_php/ajout_ouvrage1.php" afterDir="false" />
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="Ajout de ajout_ouvrage1.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp1_php/delete2.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/delete2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp1_php/tp1_php.css" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/tp1_php.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp1_php/tp1_php.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/tp1_php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp1_php/ajout_ouvrage1.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/ajout_ouvrage1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +123,9 @@
       <workItem from="1702912496094" duration="2594000" />
       <workItem from="1703056337646" duration="10227000" />
       <workItem from="1703069362193" duration="641000" />
-      <workItem from="1703084881935" duration="3626000" />
+      <workItem from="1703084881935" duration="3652000" />
+      <workItem from="1703237325123" duration="2793000" />
+      <workItem from="1703240161859" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -344,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703066568205</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Ajout de ajout_ouvrage1.php">
+      <option name="closed" value="true" />
+      <created>1703088525936</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1703088525936</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +380,8 @@
     <MESSAGE value="petit correctif de la href php" />
     <MESSAGE value="ajout du tp1 php et modification du port-folio en conséquence" />
     <MESSAGE value="ajout des truc tp1 php" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout des truc tp1 php" />
+    <MESSAGE value="Ajout de ajout_ouvrage1.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de ajout_ouvrage1.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
