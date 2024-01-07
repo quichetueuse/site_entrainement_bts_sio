@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="Ajout de ajout_ouvrage1.php">
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="Ajout de ajout_ouvrage1.php&#10;et modification du tp1 php en consequence">
+      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_php_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_php_login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_php_login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp1_php/ajout_ouvrage1.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/ajout_ouvrage1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -126,6 +129,12 @@
       <workItem from="1703084881935" duration="3652000" />
       <workItem from="1703237325123" duration="2793000" />
       <workItem from="1703240161859" duration="1408000" />
+      <workItem from="1703241901154" duration="124000" />
+      <workItem from="1703766220772" duration="1246000" />
+      <workItem from="1703767488395" duration="3470000" />
+      <workItem from="1704383984914" duration="3163000" />
+      <workItem from="1704455334689" duration="53000" />
+      <workItem from="1704657324447" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -351,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703088525936</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Ajout de ajout_ouvrage1.php&#10;et modification du tp1 php en consequence">
+      <option name="closed" value="true" />
+      <created>1703242000802</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703242000802</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +398,8 @@
     <MESSAGE value="ajout du tp1 php et modification du port-folio en conséquence" />
     <MESSAGE value="ajout des truc tp1 php" />
     <MESSAGE value="Ajout de ajout_ouvrage1.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de ajout_ouvrage1.php" />
+    <MESSAGE value="Ajout de ajout_ouvrage1.php&#10;et modification du tp1 php en consequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de ajout_ouvrage1.php&#10;et modification du tp1 php en consequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

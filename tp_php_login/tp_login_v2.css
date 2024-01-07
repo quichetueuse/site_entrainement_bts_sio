@@ -1,0 +1,167 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('python-logo.png');
+
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#titre
+{
+    color: red;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    /*text-shadow: 5px 5px 10px #00FF00;*/
+    -webkit-text-stroke: 2px orange;
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+form
+{
+    padding: 10px;
+    display: block;
+    /*background-color: orange;*/
+    background-color: white;
+    opacity: 90%;
+    border-radius: 10px;
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /*box shadow*/
+}
+
+.combo-input-label
+{
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: yellow;*/
+}
+
+.combo-input-label input
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    height: 25px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+
+.combo-input-label input:focus
+{
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+/*    box shadow aussi ici*/
+}
+
+.combo-input-label label
+{
+    width: 40%;
+}
+
+.combo-input-label #cb-show
+{
+    margin-left: 10px;
+}
+
+.combo-input-label label input
+{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.info
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.div-button
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+
+
+/*@keyframes gradient-change {*/
+/*    0% {*/
+/*        background-image: linear-gradient(to bottom right, limegreen, lightgreen);*/
+/*    }*/
+/*    100% {*/
+/*        background-image: linear-gradient(to bottom right, green, limegreen);*/
+/*    }*/
+
+/*}*/
+
+/*@keyframes Animation {*/
+/*    0%{background-position:10% 0%}*/
+/*    100%{background-position:91% 100%}*/
+/*}*/
+
+#sign-in-btn
+{
+    color: grey;
+    font-weight: bold;
+    /*background-color: lightgreen;*/
+    background-image: linear-gradient(130deg, limegreen, lightgreen, white);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+#sign-in-btn:hover
+{
+    /*background-color: green;*/
+    background-image: linear-gradient(130deg, green, limegreen, lightgreen);
+    color: white;
+    transform: scale(1.01);
+}
+
+.div-link
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-link a
+{
+    text-decoration: blueviolet;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.div-link a:hover
+{
+    transform: scale(1.01);
+    text-shadow:1px 1px 10px lightblue, 1px 1px 10px cornflowerblue;
+}
