@@ -75,7 +75,13 @@ form
 
 .combo-input-label label
 {
-    width: 40%;
+    /*border: 1px solid black;*/
+    width: 48%;
+}
+
+.combo-input-label #label_long
+{
+    width: 60%;
 }
 
 .combo-input-label #cb-show

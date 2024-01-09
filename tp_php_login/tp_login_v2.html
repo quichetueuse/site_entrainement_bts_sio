@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="tp_login_v2.css">
+    <script src="tp_login_v2.js"></script>
     <title>Ma page</title>
 </head>
 <body>
@@ -16,8 +17,8 @@
         </div>
         <div class="combo-input-label">
             <label>Entrez votre mot de passe</label>
-            <input type="password" placeholder="e.g banane03!">
-            <label id="cb-show"><input type="checkbox" id="show-password">   Affichez le mot de passe</label>
+            <input type="password" id="input_password" placeholder="e.g banane03!">
+            <label id="cb-show"><input type="checkbox" id="show-password" onclick="view_password()">   Affichez le mot de passe</label>
         </div>
         <div class="info">
             <p></p>

@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="Ajout de ajout_ouvrage1.php&#10;et modification du tp1 php en consequence">
-      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_php_login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_php_login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_php_login.php" afterDir="false" />
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="debut login v2 php">
+      <change afterPath="$PROJECT_DIR$/tp_php_login/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_create_acc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_php_login/tp_login_v2.css" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_php_login/tp_login_v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -65,11 +68,11 @@
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\tp_php_login" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_BINOME" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\Certifications" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\Certifications\tp7-4" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_2" />
-      <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_4" />
     </key>
   </component>
   <component name="RunManager">
@@ -135,6 +138,12 @@
       <workItem from="1704383984914" duration="3163000" />
       <workItem from="1704455334689" duration="53000" />
       <workItem from="1704657324447" duration="42000" />
+      <workItem from="1704662305641" duration="168000" />
+      <workItem from="1704707120016" duration="3523000" />
+      <workItem from="1704723626378" duration="2395000" />
+      <workItem from="1704726929765" duration="2552000" />
+      <workItem from="1704830412054" duration="1934000" />
+      <workItem from="1704832945820" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -368,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703242000802</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="debut login v2 php">
+      <option name="closed" value="true" />
+      <created>1704662449984</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1704662449984</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +416,8 @@
     <MESSAGE value="ajout des truc tp1 php" />
     <MESSAGE value="Ajout de ajout_ouvrage1.php" />
     <MESSAGE value="Ajout de ajout_ouvrage1.php&#10;et modification du tp1 php en consequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de ajout_ouvrage1.php&#10;et modification du tp1 php en consequence" />
+    <MESSAGE value="debut login v2 php" />
+    <option name="LAST_COMMIT_MESSAGE" value="debut login v2 php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
