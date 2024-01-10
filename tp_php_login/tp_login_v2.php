@@ -27,7 +27,7 @@
             <p id="p-info"></p>
         </div>
         <div class="div-button">
-            <button id="sign-in-btn" name="sign-in">Sign in</button>
+            <button id="sign-in-btn" name="sign-in">validate</button>
         </div>
         <div class="div-link">
 

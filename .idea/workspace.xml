@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="debut login v2 php">
-      <change afterPath="$PROJECT_DIR$/tp_php_login/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_create_acc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.php" afterDir="false" />
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="creation de page ajout compte">
+      <change afterPath="$PROJECT_DIR$/tp_php_login/success.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp_php_login/tp_login_v2.css" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp_php_login/tp_login_v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_php_login/tp_login_v2.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,9 @@
       <workItem from="1704723626378" duration="2395000" />
       <workItem from="1704726929765" duration="2552000" />
       <workItem from="1704830412054" duration="1934000" />
-      <workItem from="1704832945820" duration="1879000" />
+      <workItem from="1704832945820" duration="1920000" />
+      <workItem from="1704870418818" duration="2905000" />
+      <workItem from="1704878005088" duration="2802000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -385,14 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704662449984</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="creation de page ajout compte">
+      <option name="closed" value="true" />
+      <created>1704834852691</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1704834852691</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mise à jour" />
     <MESSAGE value="Mise à jour&#10;- Ajout Mission 7, 8, 9&#10;- Ajout TP 7-3, 9" />
     <MESSAGE value="ajout tp9" />
     <MESSAGE value="Finition de Mission 9" />
@@ -417,7 +424,8 @@
     <MESSAGE value="Ajout de ajout_ouvrage1.php" />
     <MESSAGE value="Ajout de ajout_ouvrage1.php&#10;et modification du tp1 php en consequence" />
     <MESSAGE value="debut login v2 php" />
-    <option name="LAST_COMMIT_MESSAGE" value="debut login v2 php" />
+    <MESSAGE value="creation de page ajout compte" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation de page ajout compte" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
