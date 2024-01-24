@@ -4,10 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="creation de page ajout compte">
-      <change afterPath="$PROJECT_DIR$/tp_php_login/success.php" afterDir="false" />
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="creation de la page success.php qui permet d'ajouter un individu dans la table élève">
+      <change afterPath="$PROJECT_DIR$/Mission13/Assets/forest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mission13/Assets/logo-zoo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mission13/Assets/photo-page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mission13/Assets/some-wilds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mission13/page_auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mission13/page_menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mission13/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/affichage_eleve1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/affichage_eleve2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/affichage_eleve3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/affichage_eleves4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher_bis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher_ters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/style_affichage4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/style_session.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/suppression2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp_php_login/suppression_eleve.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp1_php/liste_ouvrage4.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_php_login/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/success.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp_php_login/tp_login_v2.css" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp_php_login/tp_login_v2.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.php" afterDir="false" />
     </list>
@@ -22,9 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -35,6 +56,9 @@
     <include_path>
       <path value="$PROJECT_DIR$/../../../Program Files (x86)/EasyPHP-5.3.6.0/php" />
     </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -50,7 +74,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files (x86)/EasyPHP-5.3.6.0/php/php.ini&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/_Workspace/git/site_entrainement_bts_sio_ssh/Mission13/Assets&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -62,6 +86,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\Mission13\Assets" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_BINOME" />
       <recent name="C:\_Workspace\git\site_entrainement_bts_sio_ssh\TP_SQL_4" />
     </key>
@@ -143,7 +168,15 @@
       <workItem from="1704830412054" duration="1934000" />
       <workItem from="1704832945820" duration="1920000" />
       <workItem from="1704870418818" duration="2905000" />
-      <workItem from="1704878005088" duration="2802000" />
+      <workItem from="1704878005088" duration="2875000" />
+      <workItem from="1705475109735" duration="1896000" />
+      <workItem from="1705477029161" duration="3374000" />
+      <workItem from="1705480813918" duration="4395000" />
+      <workItem from="1705502194511" duration="411000" />
+      <workItem from="1706016636224" duration="2063000" />
+      <workItem from="1706043540689" duration="1407000" />
+      <workItem from="1706082671782" duration="3682000" />
+      <workItem from="1706087732185" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -393,14 +426,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704834852691</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="creation de la page success.php qui permet d'ajouter un individu dans la table élève">
+      <option name="closed" value="true" />
+      <created>1704880846341</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1704880846341</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mise à jour&#10;- Ajout Mission 7, 8, 9&#10;- Ajout TP 7-3, 9" />
     <MESSAGE value="ajout tp9" />
     <MESSAGE value="Finition de Mission 9" />
     <MESSAGE value="patch d'un petit bug graphique" />
@@ -425,7 +465,8 @@
     <MESSAGE value="Ajout de ajout_ouvrage1.php&#10;et modification du tp1 php en consequence" />
     <MESSAGE value="debut login v2 php" />
     <MESSAGE value="creation de page ajout compte" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation de page ajout compte" />
+    <MESSAGE value="creation de la page success.php qui permet d'ajouter un individu dans la table élève" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation de la page success.php qui permet d'ajouter un individu dans la table élève" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,41 +5,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="tp_login_v2.css">
-    <script src="tp_login_v2.js"></script>
-    <title>Ma page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--    <script src="tp_login_v2.js"></script>-->
+    <title>Authentification</title>
 </head>
-<body>
+<body id="body-menu">
 <div id="bg-image"></div>
-<h1 id="titre">Page de connexion</h1>
-<div class="container">
-    <form method="post">
-        <div class="combo-input-label">
-            <label>Entrez votre e-mail</label>
-            <input type="email" placeholder="e.g eliot.barrabes@yahoo.free" name="input_email">
-        </div>
-        <div class="combo-input-label">
-            <label>Entrez votre mot de passe</label>
-            <input type="password" id="input_password" name="input_password" placeholder="e.g banane03!">
-            <label id="cb-show"><input type="checkbox" id="show-password" onclick="view_password()">   Affichez le mot de passe</label>
-        </div>
-        <div class="info">
-            <p id="p-info"></p>
-        </div>
-        <div class="div-button">
-            <button id="sign-in-btn" name="sign-in">validate</button>
-        </div>
-        <div class="div-link">
+<header id="header_menu">
+    <div id="div-photo">
+        <img id="photo-zoo" src="Assets/logo-zoo.png">
+    </div>
+    <h1 id="titre_header">ZOO</h1>
+    <button class="menu-btn" id="btn-admin">DashBoard Employés</button>
+    <button class="menu-btn">DashBoard Animaux</button>
+    <button class="menu-btn">Contact</button>
+    <button id="disconnect">Déconnection</button>
 
-            <a href="#">Forgot password?</a>
-            <a href="tp_create_acc.php">Don't have an account?</a>
-        </div>
-
-    </form>
-</div>
+    
+    
+</header>
+<h1 id="titre">Bienvenue {utilisateur}</h1>
 <?php
-session_start();
-
 if(array_key_exists("sign-in", $_POST)) {
     if(check_password() === true)
     {
@@ -131,9 +118,7 @@ function check_db()
         else
         {
             echo "<script>console.log('connexion reussit!!!')</script>";
-            $_SESSION["email"] = $email;
-            $_SESSION["password"] = $password;
-            echo "<script>document.location.href = 'success.php';</script>";
+            echo "<script>document.location.href = 'success.html';</script>";
         }
     }
     else
@@ -147,4 +132,18 @@ function check_db()
 //?JeSuisUneBanane13?
 ?>
 </body>
+<script>
+    statut = "admin";
+    if (statut === "admin")
+    {
+        document.getElementById("btn-admin").style.visibility = "visible";
+    }
+    else
+    {
+        document.getElementById("btn-admin").style.visibility = "hidden";
+    }
+
+
+
+</script>
 </html>

@@ -3,24 +3,35 @@ body
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url('python-logo.png');
+    background-image: url('Assets/photo-page.png');
 
     /* Center and scale the image nicely */
-    background-position: top;
+    /*background-position: top;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#body-menu
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('Assets/forest.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 
 #titre
 {
-    color: red;
-    font-size: 42px;
+    opacity: 75%;
+    color: forestgreen;
+    font-size: 70px;
     font-weight: bold;
     text-align: center;
     /*text-shadow: 5px 5px 10px #00FF00;*/
-    -webkit-text-stroke: 2px orange;
+    -webkit-text-stroke: 2px darkolivegreen;
 }
 
 .container
@@ -70,7 +81,7 @@ form
 {
     background-color: lightblue;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-/*    box shadow aussi ici*/
+    /*    box shadow aussi ici*/
 }
 
 .combo-input-label label
@@ -152,15 +163,6 @@ form
     color: white;
     transform: scale(1.01);
 }
-
-
-.div-button #disconnect
-{
-    color: grey;
-    font-weight: bold;
-    background-color: indianred;
-}
-
 /*#sign-in-btn*/
 /*{*/
 /*    color: grey;*/
@@ -203,21 +205,83 @@ form
 }
 
 
-.div-session
+/*============================page menu==========================*/
+#header_menu
 {
-    border: 1px solid black;
-    background-color: lightgrey;
-    transition: 0.3s ease-in-out;
-    margin: 15px;
-    width: 50px;
-    height: 50px;
-    float: right;
-    border-radius: 10px;
-
+    padding: 0;
+    margin: 0;
+    background-color: #33383b;
+    /*height: 150px;*/
+    /*opacity: 90%;*/
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
 }
 
-.div-session:hover
+#div-photo
 {
-    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border: inherit;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 15px;
+    /*margin: 15px;*/
+}
+
+#photo-zoo
+{
+    height: inherit;
+    width: inherit;
+    bottom: inherit;
+}
+
+#titre_header
+{
+    font-weight: bold;
+    color: white;
+}
+
+
+#btn-admin
+{
+    visibility: hidden;
+}
+
+.menu-btn
+{
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    transition: 0.3s ease-in-out;
+    margin: 15px;
+}
+.menu-btn:hover
+{
     transform: scale(1.01);
+    background-color: darkorange;
+    color: grey;
+}
+
+#disconnect
+{
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    transition: 0.3s ease-in-out;
+    margin: 15px;
+}
+#disconnect:hover
+{
+    transform: scale(1.01);
+    background-color: darkred;
+    color: grey;
 }

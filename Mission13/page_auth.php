@@ -5,13 +5,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="tp_login_v2.css">
-    <script src="tp_login_v2.js"></script>
-    <title>Ma page</title>
+    <link rel="stylesheet" href="style.css">
+<!--    <script src="tp_login_v2.js"></script>-->
+    <title>Authentification</title>
 </head>
 <body>
 <div id="bg-image"></div>
-<h1 id="titre">Page de connexion</h1>
+<h1 id="titre">ZOO</h1>
 <div class="container">
     <form method="post">
         <div class="combo-input-label">
@@ -27,19 +27,17 @@
             <p id="p-info"></p>
         </div>
         <div class="div-button">
-            <button id="sign-in-btn" name="sign-in">validate</button>
+            <button id="sign-in-btn" name="sign-in">Valider</button>
         </div>
         <div class="div-link">
 
-            <a href="#">Forgot password?</a>
-            <a href="tp_create_acc.php">Don't have an account?</a>
+            <a href="#">Mot de passe oublié?</a>
+            <a href="#">Pas de compte?</a>
         </div>
 
     </form>
 </div>
 <?php
-session_start();
-
 if(array_key_exists("sign-in", $_POST)) {
     if(check_password() === true)
     {
@@ -131,9 +129,7 @@ function check_db()
         else
         {
             echo "<script>console.log('connexion reussit!!!')</script>";
-            $_SESSION["email"] = $email;
-            $_SESSION["password"] = $password;
-            echo "<script>document.location.href = 'success.php';</script>";
+            echo "<script>document.location.href = 'success.html';</script>";
         }
     }
     else

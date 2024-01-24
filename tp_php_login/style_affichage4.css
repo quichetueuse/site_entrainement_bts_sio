@@ -1,0 +1,27 @@
+.ouvrage_container
+{
+    /*float: left;*/
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: darkslategray;
+    width: 15%;
+    height: 150px;
+    text-align: center;
+    margin: 5px;
+    display: block;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+.ouvrage_titre
+{
+    color: white;
+    font-size: 15px;
+}
+
+
+#big-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

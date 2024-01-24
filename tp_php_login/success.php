@@ -1,4 +1,5 @@
 <?php
+session_start();
 //require "tp_login_v2.php";
 //?>
 <!DOCTYPE html>
@@ -11,7 +12,7 @@
 </head>
 <body>
 <div id="bg-image"></div>
-<h1 id="titre">Base de données</h1>
+<h1 id="titre">Base de données, Bienvenue <?php echo $_SESSION["email"] ?></h1>
 <div class="container">
     <form method="post">
         <div class="combo-input-label">
@@ -40,7 +41,34 @@
             <button id="reset_btn" name="reset_btn" type="reset">Annuler</button>
         </div>
         <div class="div-button">
-            <button id="show_btn" name="show_btn">Afficher les élèves</button>
+            <button id="show_btn1" name="show_btn1">Afficher les élèves 1</button>
+        </div>
+        <div class="div-button">
+            <button id="show_btn2" name="show_btn2">Afficher les élèves 2</button>
+        </div>
+        <div class="div-button">
+            <button id="show_btn3" name="show_btn3">Afficher les élèves 3</button>
+        </div>
+        <div class="div-button">
+            <button id="show_btn4" name="show_btn4">Afficher les élèves 4</button>
+        </div>
+        <div class="div-button">
+            <button id="del_btn1" name="del_btn1">supprimer les élèves 1</button>
+        </div>
+        <div class="div-button">
+            <button id="del_btn2" name="del_btn2">supprimer les élèves 2</button>
+        </div>
+        <div class="div-button">
+            <button id="search_btn1" name="search_btn1">rechercher les élèves 1</button>
+        </div>
+        <div class="div-button">
+            <button id="search_btn2" name="search_btn2">rechercher les élèves 2</button>
+        </div>
+        <div class="div-button">
+            <button id="search_btn3" name="search_btn3">rechercher les élèves 3</button>
+        </div>
+        <div class="div-button">
+            <button id="disconnect" name="disconnect">Logout</button>
         </div>
 
     </form>
@@ -48,17 +76,50 @@
 <?php
 if(array_key_exists("validate", $_POST)) {
     add_eleve();
-//    check_password();
-//    echo "<script> check_password()</script>";
-//    echo "<script>document.getElementById('p-info').style.color = 'Blue';</script>";
 }
-if(array_key_exists("show_btn", $_POST)) {
-//    add_eleve();
-//    check_password();
-//    echo "<script> check_password()</script>";
-//    echo "<script>document.getElementById('p-info').style.color = 'Blue';</script>";
+if(array_key_exists("show_btn1", $_POST)) {
+    echo "<script>document.location.href='affichage_eleve1.php'</script>";
+
+}
+if(array_key_exists("show_btn2", $_POST)) {
+    echo "<script>document.location.href='affichage_eleve2.php'</script>";
+
+}
+if(array_key_exists("show_btn3", $_POST)) {
+    echo "<script>document.location.href='affichage_eleve3.php'</script>";
+
+}
+if(array_key_exists("show_btn4", $_POST)) {
+    echo "<script>document.location.href='affichage_eleve4.php'</script>";
+
+}
+if(array_key_exists("del_btn1", $_POST)) {
+    echo "<script>document.location.href='suppression_eleve.php'</script>";
+
+}
+if(array_key_exists("del_btn2", $_POST)) {
+    echo "<script>document.location.href='suppression2.php'</script>";
+
+}
+if(array_key_exists("search_btn1", $_POST)) {
+    echo "<script>document.location.href='rechercher1.php'</script>";
+
+}
+if(array_key_exists("search_btn2", $_POST)) {
+    echo "<script>document.location.href='rechercher2.php'</script>";
+
 }
 
+if(array_key_exists("search_btn3", $_POST)) {
+    echo "<script>document.location.href='rechercher3.php'</script>";
+
+}
+if(array_key_exists("disconnect", $_POST)) {
+    session_unset();
+    session_destroy();
+    echo "<script>document.location.href = 'tp_login_v2.php';</script>";
+
+}
 function add_eleve()
 {
     $num = $_POST['input_num'];
@@ -81,7 +142,7 @@ function add_eleve()
     {
         echo "<script>
         document.getElementById('p-info').style.color = 'Green';
-        document.getElementById('p-info').innerText = 'ajout de l\'élève reussit;</script>";
+        document.getElementById('p-info').innerText = 'ajout de l\'élève reussit';</script>";
     }
     else
     {
