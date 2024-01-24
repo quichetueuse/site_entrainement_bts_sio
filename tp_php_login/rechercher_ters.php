@@ -14,6 +14,8 @@ if(mysqli_query($conn, $requete))
 {
     $resultat = mysqli_query($conn, $requete);
     ?>
+    <div id="container-tableau">
+        <h1 style="text-align: center">Affichage des information concernant l'individu <?php echo $nom ?></h1>
     <table class="center container" style="border: 1px solid blueviolet;">
         <tr style="color: green; font-weight: bold; text-align: center"><td>Num</td><td>Nom</td><td>Adresse</td><td>Tel</td></tr>
         <?php
@@ -33,6 +35,7 @@ if(mysqli_query($conn, $requete))
         }?>
         <?php mysqli_close($conn)?>
     </table>
+    </div>
     <?php
 }
 else
@@ -43,4 +46,14 @@ else
 
 ?>
 
+<style>
+
+    #container-tableau
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+</style>
 

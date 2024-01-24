@@ -4,33 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="creation de la page success.php qui permet d'ajouter un individu dans la table élève">
-      <change afterPath="$PROJECT_DIR$/Mission13/Assets/forest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mission13/Assets/logo-zoo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mission13/Assets/photo-page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mission13/Assets/some-wilds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mission13/page_auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mission13/page_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mission13/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/affichage_eleve1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/affichage_eleve2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/affichage_eleve3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/affichage_eleves4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher_bis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/rechercher_ters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/style_affichage4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/style_session.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/suppression2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp_php_login/suppression_eleve.php" afterDir="false" />
+    <list default="true" id="66a6be7f-7ac4-4d8b-bdeb-914324bce167" name="Changes" comment="ajout des session sur le tp php login sur toutes les sous-pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp1_php/liste_ouvrage4.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp1_php/liste_ouvrage4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp_php_login/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp_php_login/tp_login_v2.css" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp_php_login/tp_login_v2.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/tp_login_v2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_php_login/affichage_eleves4.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/affichage_eleves4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_php_login/rechercher3.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/rechercher3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_php_login/rechercher_ters.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp_php_login/rechercher_ters.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +154,7 @@
       <workItem from="1706016636224" duration="2063000" />
       <workItem from="1706043540689" duration="1407000" />
       <workItem from="1706082671782" duration="3682000" />
-      <workItem from="1706087732185" duration="619000" />
+      <workItem from="1706087732185" duration="1619000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour">
       <option name="closed" value="true" />
@@ -434,14 +412,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704880846341</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="ajout des session sur le tp php login sur toutes les sous-pages">
+      <option name="closed" value="true" />
+      <created>1706088567661</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1706088567661</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajout tp9" />
     <MESSAGE value="Finition de Mission 9" />
     <MESSAGE value="patch d'un petit bug graphique" />
     <MESSAGE value="décalage de la div" />
@@ -466,7 +451,8 @@
     <MESSAGE value="debut login v2 php" />
     <MESSAGE value="creation de page ajout compte" />
     <MESSAGE value="creation de la page success.php qui permet d'ajouter un individu dans la table élève" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation de la page success.php qui permet d'ajouter un individu dans la table élève" />
+    <MESSAGE value="ajout des session sur le tp php login sur toutes les sous-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des session sur le tp php login sur toutes les sous-pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -14,14 +14,15 @@ session_start();
 </head>
 <body>
 <div id="bg-image"></div>
-<h1 id="titre">Base de données</h1>
 <div class="div-session">Connecté en tant que <?php echo $_SESSION["email"] ?></div>
+<h1 id="titre">Base de données</h1>
+
 <div class="container">
     <form method="post">
         <div class="combo-input-label">
             <label>choississez votre individu</label>
             <select name="input_num" size="5" id="input_num">
-                <option value="">--Choississez un ouvrage--</option>
+<!--                <option value="">--Choississez un ouvrage--</option>-->
                 <?php
                 //phpinfo();
                 try {
@@ -44,7 +45,8 @@ session_start();
                 {
 //        header('Content-type: text/plain; charset=utf-8');
                     ?>
-                    <option><?php echo "<a href='rechercher_ters.php?nom=" . $enre['Nom'] . "'>Wow</a>";?></option>
+                    <option><?php echo $enre["Nom"]; ?></option>
+<!--                    --><?php //echo "<a href='rechercher_ters.php?nom=" . $enre['Nom'] . "'>Wow</a>";?>
 
                     <?php
                     $i++;
@@ -70,10 +72,11 @@ if(array_key_exists("validate", $_POST)) {
 
 function rechercher_eleve()
 {
-    echo "<script>document.getElementById('input_num').value;</script>";
+//    echo "<script>document.getElementById('input_num').value;</script>";
     $nom = $_POST['input_num'];
 //    header("rechercher_ters.php?nom=");
-    echo "<script>window.location.href = 'rechercher_ters.php?nom=' . $nom . '';</script>";
+    header('Location: rechercher_ters.php?nom='.$nom);
+//    echo "<script>window.location.href = 'rechercher_ters.php?nom=' . $nom . '';</script>";
 }?>
 </body>
 </html>

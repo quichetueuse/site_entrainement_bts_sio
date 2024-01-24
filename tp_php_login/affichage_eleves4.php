@@ -14,7 +14,7 @@ session_start();
 
 </head>
 <body style="background-color: aquamarine">
-<h1 style="font-size: 25px; font-weight: bold; color: red; text-align: center">Affichage des ouvrages</h1>
+<h1 style="font-size: 25px; font-weight: bold; color: red; text-align: center">Affichage des élèves</h1>
 <div class="div-session">Connecté en tant que <?php echo $_SESSION["email"] ?></div>
 <div style="text-align: center" id="big-container">
 <!--        <h2 class="ouvrage_titre">TEST</h2>-->
