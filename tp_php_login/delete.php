@@ -1,6 +1,7 @@
 <?php
+global $conn;
 try {
-    $conn = mysqli_connect("localhost", "root", "", "bd_user");
+    @include("connecte.php");
 }
 catch (Exception $e)
 {

@@ -1,5 +1,6 @@
 
 <?php
+global $conn;
 session_start();
 ?>
 
@@ -27,7 +28,7 @@ session_start();
 
     //phpinfo();
     try {
-        $conn = mysqli_connect("localhost", "root", "", "bd_user");
+        @include("connecte.php");
     }
     catch (Exception $e)
     {
@@ -67,6 +68,7 @@ session_start();
 //        header('Content-type: text/html; charset=utf-8');
     }?>
 </div>
+<a href="success.php" style="text-align: center; display: flex; justify-content: center">Retour</a>
 <?php mysqli_close($conn)?>
 
 

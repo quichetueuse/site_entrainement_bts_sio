@@ -1,6 +1,7 @@
 
 <?php
-//require "tp_login_v2.php";
+global $conn;
+//require "index.php";
 session_start();
 //?>
 <!DOCTYPE html>
@@ -25,6 +26,9 @@ session_start();
       <div class="info">
             <p id="p-info"></p>
         </div>
+        <div>
+            <a href="success.php" style="text-align: center; display: flex; justify-content: center">Retour</a>
+        </div>
         <div class="div-button">
             <button id="validate" name="validate">Supprimer</button>
         </div>
@@ -40,12 +44,13 @@ if(array_key_exists("validate", $_POST)) {
 
 function delete_eleve()
 {
+    global $conn;
     $num = $_POST['input_num'];
 
 
     echo "num : " . $num;
     try {
-        $conn = mysqli_connect("localhost", "root", "", "bd_user");
+        @include("connecte.php");
     }
     catch (Exception $e)
     {

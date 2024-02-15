@@ -1,0 +1,125 @@
+.choice_animaux_espece
+{
+    width: 45%;
+    height: 75px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    appearance: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    color: lightslategrey;
+}
+
+.iframe-title
+{
+    background-color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    color: lightslategrey;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    appearance: none;
+    margin-right: auto;
+    height: 75px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dashboard-input
+{
+    /*width: 100%;*/
+    width: 250px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    appearance: none;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: lightslategrey;
+
+
+}
+
+.center-label
+{
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.comment
+{
+    color: lightslategrey;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    height: 300px;
+    width: 100%;
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-dashboard
+{
+    color: lightgrey;
+    background-color: forestgreen;
+    transition: 0.3s ease-in-out;
+    border-radius: 25px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn-dashboard:hover
+{
+    transform: scale(1.01);
+    color: white ;
+    background-color: limegreen;
+}
+
+/*.btn-dashboard #-dashboard_btn*/
+/*{*/
+/*    background-color: limegreen;*/
+/*    color: white;*/
+/*}*/
+
+
+#select-animaux{
+    margin-right: 20px;
+    width: 70%;
+}
+
+#btn_modify
+{
+    width: 30%;
+    align-self: center;
+}
+
+#btn_search
+{
+    width: 30%;
+    align-self: center;
+}

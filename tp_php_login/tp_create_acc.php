@@ -1,5 +1,6 @@
 <?php
-//require "tp_login_v2.php";
+global $conn;
+//require "index.php";
 //?>
 <!DOCTYPE html>
 <html lang="en">
@@ -114,7 +115,7 @@ function create_acc()
     $password = $_POST['input_password'];
 
     try {
-        $conn = mysqli_connect("localhost", "root", "", "bd_user");
+        @include("connecte.php");
     }
     catch (Exception $e)
     {

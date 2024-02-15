@@ -1,6 +1,7 @@
 <?php
+global $conn;
 session_start();
-//require "tp_login_v2.php";
+//require "index.php";
 //?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +13,8 @@ session_start();
 </head>
 <body>
 <div id="bg-image"></div>
-<h1 id="titre">Base de données, Bienvenue <?php echo $_SESSION["email"] ?></h1>
+<h1 id="titre">Base de données, Bienvenue
+    <?php echo (array_key_exists("email", $_SESSION)) ? $_SESSION["email"] : "" ?></h1>
 <div class="container">
     <form method="post">
         <div class="combo-input-label">
@@ -74,6 +76,7 @@ session_start();
     </form>
 </div>
 <?php
+
 if(array_key_exists("validate", $_POST)) {
     add_eleve();
 }
@@ -90,7 +93,8 @@ if(array_key_exists("show_btn3", $_POST)) {
 
 }
 if(array_key_exists("show_btn4", $_POST)) {
-    echo "<script>document.location.href='affichage_eleve4.php'</script>";
+//    echo "<script>document.location.href='affichage_eleves4.php'</script>";
+    header("location: affichage_eleves4.php");
 
 }
 if(array_key_exists("del_btn1", $_POST)) {
@@ -117,11 +121,12 @@ if(array_key_exists("search_btn3", $_POST)) {
 if(array_key_exists("disconnect", $_POST)) {
     session_unset();
     session_destroy();
-    echo "<script>document.location.href = 'tp_login_v2.php';</script>";
+    echo "<script>document.location.href = 'index.php';</script>";
 
 }
 function add_eleve()
 {
+    global $conn;
     $num = $_POST['input_num'];
     $nom = $_POST['input_nom'];
     $adresse = $_POST['input_adresse'];
@@ -129,7 +134,8 @@ function add_eleve()
 
     echo "num : " . $num . " nom: " . $nom . " adresse: " . $adresse . " tel: " . $tel;
     try {
-        $conn = mysqli_connect("localhost", "root", "", "bd_user");
+        @include("connecte.php");
+//        $conn = mysqli_connect("localhost", "root", "", "bd_user");
     }
     catch (Exception $e)
     {
@@ -138,6 +144,7 @@ function add_eleve()
     }
 //SELECT * FROM `access` WHERE Email='jean.kevin@gmx.com' AND Password='JeSuisUneCotelette01';
     $requete = "INSERT INTO eleves (`Num`, `Nom`, `Adresse`, `Tel`) VALUES ('$num', '$nom', '$adresse', '$tel')";
+    $resultat = mysqli_query($conn, $requete);
     if(mysqli_query($conn, $requete))
     {
         echo "<script>

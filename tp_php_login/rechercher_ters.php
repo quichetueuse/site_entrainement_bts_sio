@@ -1,6 +1,7 @@
 <?php
+global $conn;
 try {
-    $conn = mysqli_connect("localhost", "root", "", "bd_user");
+    @include("connecte.php");
 }
 catch (Exception $e)
 {
@@ -35,7 +36,9 @@ if(mysqli_query($conn, $requete))
         }?>
         <?php mysqli_close($conn)?>
     </table>
+        <a href="rechercher3.php" style="text-align: center; display: flex; justify-content: center">Retour</a>
     </div>
+
     <?php
 }
 else
