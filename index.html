@@ -1,125 +1,383 @@
 <!DOCTYPE html>
-<!--Eliot Barrabes -->
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio | Eliot Barrabes</title>
+  </head>
 
-<html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="menu_responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-    <title>Menu</title>
-</head>
-<body style="background-color: aquamarine;">
-<!--<h1 style="font-weight: bold; color: red; text-align: center">Sommaire: </h1>-->
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <a href="#">
+          <img src="images/logo_lycee.png" />
+        </a>
+      </div>
 
-<nav>
-    <label for="menu_mobile" class="menu-mobile">Menu</label>
-    <input type="checkbox" id="menu_mobile" role="button">
-    <ul>
-        <li class="menu-html"><a href="#">HTML</a>
-            <ul class="submenu">
-                <li><a href="page_acceuil.html">Page d'acceuil</a></li>
-                <li><a href="page_2.html">Page 2</a></li>
-                <li><a href="page_3.html">Liste des arcticle</a></li>
-                <li><a href="page_formulaire.html">Formulaire</a></li>
-            </ul>
-        </li>
-        <li class="menu-css"><a href="#">CSS</a>
-            <ul class="submenu">
-                <li><a href="tp3-2_css/index.html"> TP3</a></li>
-                <li><a href="tp3_css/index.html">TP3.1</a></li>
-                <li><a href="tp3-1/index.html">TP3.2</a></li>
-                <li><a href="tp4-1/tp4-1.html">TP4.1 (bouton animé)</a></li>
+      <ul class="nav-links">
+        <li class="link"><a href="#">Présentation</a></li>
+        <li id="link1" class="link"><a href="#">Compétences</a></li>
+        <li id="link2" class="link"><a href="#">BTS</a></li>
+        <li id="link3" class="link"><a href="#">Stages</a></li>
+        <li id="link4" class="link"><a href="#">Projets</a></li>
+        <li id="link5" class="link"><a href="#">Grille</a></li>
+        <li id="link6" class="link"><a href="#">Veille</a></li>
+        <li id="link7" class="link"><a href="#">A propos</a></li>
+      </ul>
+      <button class="inv-btn">Hire Me</button>
+    </nav>
 
-                <li><a href="tp4-2/tp4-2.html">TP4.2 (carte de visite)</a></li>
-                <li><a href="tp5-1/tp5-1.html">TP5-1 (formulaire de contact)</a></li>
-                <li><a href="tp5-2/tp5-2.html">TP5-2 (test de sections)</a></li>
-                <li><a href="tp5-3/tp5-3.html">TP5-3 (test floats)</a> </li>
-                <li><a href="tp5-4/tp5-4.html">TP5-4 (article d'introduction)</a></li>
-                <li><a href="tp6-1/tp6-1.html">TP6-1 (css avec bootstrap)</a></li>
+    <header class="container">
+      <div class="content">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <h1>
+          Bonjour, je m'appelle <span>Eliot</span>, Developpeur Fullstack en
+          devenir
+        </h1>
+        <p>
+          Ayant eut mon bac mon bac professionnel avec mention très bien, je me
+          suis lancé dans l'obtention d'un Bts SIO en option SLAM (Solutions
+          Logicielles et Applications Métiers) pour faire de ma passion mon
+          métier: Développeur informatique.
+        </p>
+      </div>
+      <div class="image">
+        <img src="images/header.png" />
+      </div>
+    </header>
 
-            </ul>
-        </li>
-        <li class="menu-js"><a href="#">Javascript</a>
-            <ul class="submenu">
-                <li><a href="tp6-2/tp6-2.html">TP6-2 (test javascript)</a></li>
-                <li><a href="tp7/tp7.html">TP7 (Calculatrice v1)</a></li>
-                <li><a href="tp7-2/tp7-2.html">TP7-2 (calcul prix articles)</a></li>
-                <li><a href="tp7-3/tp7-3.html">TP7-2 (facture js)</a></li>
-                <li><a href="tp9/tp9.html">TP9 (Multifonction)</a></li>
-            </ul>
-        </li>
+    <section class="container">
+      <h2 class="header">COMPÉTENCES</h2>
+      <p class="sub-header">
+        Ces compétences sont le résultat d'un travail régulier aussi bien au
+        lycée durant mon année de BTS SIO SLAM que chez moi sur mon temps libre.
+      </p>
+      <div class="pricing">
+        <div class="card">
+          <div class="content">
+            <h3>Développement orienté object (client lourd)</h3>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              C# (WPF, WinForms)
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              XAML (WPF)
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Python (PySide6, tkinter)
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Java
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h3>Développement Web</h3>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              HTML, PHPML, HTMX
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              CSS (Bootstrap)
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Javascript (AJAX, ReactJs, JQuery)
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              PHP (Laravel)
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h3>Manipulation de données</h3>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              SQL, MySQL, SQLite
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              MCD, MLD
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              XML
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              CSV
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              JSON
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h3>Autres</h3>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Python
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              C++
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Bash
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Méthode CRUD
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <li class="menu-php"><a href="#">PHP</a>
-            <ul class="submenu">
-                <li><a href="http://localhost:63342/site_entrainement_bts_sio_ssh/premierpas_php/premierpas_php.php">Premier Pas</a></li>
-                <li><a href="http://localhost:63342/site_entrainement_bts_sio_ssh/tp1_php/tp1_php.php">tp1 PHP</a></li>
-                <li><a href="http://localhost:63342/site_entrainement_bts_sio_ssh/tp_php_login/tp_login_v2.php">tp2 PHP (page de connexion)</a></li>
+    <section class="container">
+      <h2 class="header">BTS SIO</h2>
+      <p class="sub-header">
+        Le BTS SIO ou Service Informatique aux Organisations est un BTS dont
+        l'objectif principal est de former 2 catégories de techniciens : des
+        experts cyber-sécurité avec l'optien SISR et des developpeurs
+        expérimentés avec l'option SLAM.
+      </p>
+    </section>
 
-            </ul>
-        </li>
+    <section class="container">
+      <h2 class="header">Expériences professionnelles</h2>
+      <p class="sub-header">
+        Durant mes 2 ans de BTS SIO, j'ai fait un stage de 6 semaines la
+        première année et j'ai fait le choix de faire de l'alternance durant la
+        deuxième année.
+      </p>
+      <div class="pricing">
+        <div class="card">
+          <div class="content">
+            <h4>Stage de 6 semaines</h4>
+            <h3>THALES LAS/IAS</h3>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Réalisation d'un outil de conversion et mise en forme de fichiers
+              csv vers Excel en Python.
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Réalisation d'un outil de décodage de stacktrace Windows et Linux
+              en Python.
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Realisation d'un 'filewatcher' en Python.
+            </p>
+          </div>
+          <button
+            class="btn"
+            onclick=" window.open('ressources\\PFMP Bts - Thales.pdf','_blank')"
+          >
+            Rapport de stage
+          </button>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h4>Alternance d'une année</h4>
+            <h3>THALES LAS/IAS</h3>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              Réalisation d'une application de gestion de faits techniques.
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              ???
+            </p>
+            <p>
+              <i class="ri-arrow-right-line"></i>
+              ???
+            </p>
+          </div>
+          <button
+            class="btn"
+            onclick=" window.open('http://google.com','_blank')"
+          >
+            Rapport de stage
+          </button>
+        </div>
+      </div>
+    </section>
 
-        <li class="menu-sql"><a href="#">SQL</a>
-            <ul class="submenu">
-                <li><a href="TP_SQL_1/TP_SQL_1.html">TP1 (location de voitures)</a></li>
-                <li><a href="TP_SQL_2/REQUETES%20SQL.pdf">Exemple de requêtes SQL</a></li>
-                <li><a href="TP_SQL_3/TP_SQL_3.html">TP3 (CInéma)</a></li>
-                <li><a href="TP_SQL_4/TP_SQL_4.html">TP 4 (Bibliotheque)</a></li>
-                <li><a href="TP_SQL_BINOME/TP_SQL_BINOME.html">Entrainement Bases de données (Pays)</a></li>
-            </ul>
-        </li>
+    <section class="container">
+      <h2 class="header">Projets réalisés au cours du BTS</h2>
+      <div class="features">
+        <div class="card">
+          <h4>création d'une API avec PHP</h4>
+          <p>
+            Avec le Framework PHP 'Laravel', j'ai conçu une API (Application
+            Programming Interface) en me basant sur un cahier des charges.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Participation à un CTF</h4>
+          <p>
+            J'ai eu la chance de participer à un 'Capture The Flag' mit en place
+            par mon professeur de cyber-sécurité pour les élève de SISR.
+            L'objectif était de trouver et répertorier des failles de sécurité
+            de difficultés variables.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Réalisation partielle d'un jeu video en Java</h4>
+          <p>
+            Il m'a été remis un jeu vidéo de type RPG (Role Playing Game) dont
+            certaines fonctionnalités étaient manquantes. J'ai donc du vérifier
+            et ajouter celles-ci.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Réalisation d'une application de gestion de DVD</h4>
+          <p>
+            J'ai réalisé un client lourd en C# en utilisant le framework
+            'Windows Presentation Foundation' dont la fonction principale etait
+            de gérer les DVDs, les locations et les clients d'une DVDthèque.
+            Cette application à été réalisée en appliquant la méthode CRUD
+            (Create Read Update Delete) et une gestion des privilèges /
+            sessions. Les données étaient stockées dans une base de données
+            MySQL.
+          </p>
+        </div>
+        <div class="card">
+          <h4>
+            Réalisation d'une application de gestion de locations de pelleteuses
+          </h4>
+          <p>
+            J'ai réalisé un client lourd en C# en utilisant le framework
+            'Windows Presentation Foundation' dont la fonction principale etait
+            de gérer les pelleteuses, les locations et les clients d'une d'une
+            entreprise de location de pelleteuses. Cette application à été
+            réalisée en appliquant la méthode CRUD (Create Read Update Delete)
+            et une gestion des privilèges / sessions. Les données étaient
+            stockées dans une base de données MySQL.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Réalisation d'un site web de gestion d'élève</h4>
+          <p>
+            J'ai réalisé un client léger en PHP ainsi que les languages web
+            basique (HTML, CSS, Javascript) capable de gérer les étudiants et
+            les professeurs d'un lycée. Ce site web à été réalisée en appliquant
+            la méthode CRUD (Create Read Update Delete) et une gestion des
+            privilèges / sessions. Les données étaient stockées dans une base de
+            données MySQL.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Réalisation d'un site web de gestion d'actions</h4>
+          <p>
+            J'ai réalisé un client léger en PHP avec l'aide du framework
+            javascript 'JQuery' et la technologie javascript 'AJAX'. Ce site web
+            avait pour but de gérer des tâches à réaliser, avec des personnes
+            responsables du suivi, de la création, de la réalisation de
+            celles-ci, avec une gestion des privilèges (3 profils ayant plus ou
+            moins de droits sur le site), dans le respect de la méthode CRUD et
+            en intégrant des mécanismes de protections de cyber-attaques (DOS,
+            injection SQL, mot de passe hashé, protection contre la 'brute
+            force', etc...). Les données étaient stockées dans une base de
+            données MySQL.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Réalisation d'un site web de gestion d'activités alpines</h4>
+          <p>
+            J'ai réalisé un client léger en PHP avec l'aide du framework
+            javascript 'JQuery' et la technologie javascript 'AJAX'. Ce site web
+            avait pour but de gérer les activités réalisables dans un centre
+            d'activités alpin. Avec une gestion des privilèges (3 profils ayant
+            plus ou moins de droits sur le site), dans le respect de la méthode
+            CRUD et en intégrant des mécanismes de protections de cyber-attaques
+            (DOS, injection SQL, mot de passe hashé, protection contre la 'brute
+            force', etc...). Les données étaient stockées dans une base de
+            données MySQL.
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <li class="menu-mission"><a href="#">Mission</a>
-            <ul class="submenu">
-                <li><a href="Mission1/index.html">Mission 1 </a></li>
-                <li><a href="mission2/PagePrincipale.html">Mission 2 (Aide orientation terminale)</a></li>
-                <li><a href="Mission3/PageQCM.html">Mission 3 (QCM)</a></li>
-                <li><a href="Mission4/CV.html">Mission 4 (CV)</a></li>
-                <li><a href="Mission7/PortFolio.html">Mission 7 (Portfolio)</a></li>
-                <li><a href="Mission8/Multifunctions.html">Mission 8 (Multi-fonction)</a></li>
-                <li><a href="Mission9/FactureV1.html">Mission 9 (Facture)</a></li>
-            </ul>
-        </li>
+    <section class="container">
+      <h2 class="header">Grille des compétences</h2>
+      <div class="projects_grid_container">
+        <div class="card" style="margin: 0 auto">
+          <img src="images/projects_grid.PNG" class="projects_grid" style="" />
+          <div class="project_grid_btn_div">
+            <button
+              class="btn"
+              onclick="window.open('ressources\\Grille Projets.xlsx')"
+            >
+              Télécharger la grille des projets
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <li class="menu-certif"><a href="#">Certifications</a>
-            <ul class="submenu">
-                <li><a href="Certifications/Certification_Module1.pdf">Certification MOOC Module 1</a></li>
-                <li><a href="Certifications/Certification_Module2.pdf">Certification MOOC Module 2</a></li>
-                <li><a href="Certifications/Certification_Module3.pdf">Certification MOOC Module 3</a></li>
-                <li><a href="Certifications/Certification_Module4.pdf">Certification MOOC Module 4</a></li>
-                <li><a href="Certifications/Certification_Module5.pdf">Certification MOOC Module 5</a></li>
-                <li><a href="Certifications/Certification_pix.pdf">Certification Pix</a></li>
-                <li><a href="Certifications/MOOC_Num.pdf">Certification MOOC de la NumAcadémie</a></li>
-            </ul>
-        </li>
+    <section class="container" id="veille">
+      <div class="content">
+        <h1>
+          Veille technologique : Le <span>Ray Tracing</span> et le
+          <span>DLSS</span>
+        </h1>
+        <p>
+          Afin de valider l'obtention de mon diplôme de BTS, il est nécessaire
+          de présenter une technologie. Le sujet retenu concerne à la fois une
+          technologie capable de simuler le comportement de la lumière et une
+          technologie d'upscaling dont l'objectif est d'augmenter le nombre
+          d'images par seconde. La mise en œuvre de ces technologie dans les
+          jeux vidéos d'aujourd'hui est devenue incontournable.
+        </p>
+        <button
+          class="btn"
+          onclick="window.open('ressources\\Veille Technologique - Le RTX et le DLSS.pptx')"
+        >
+          Veille Technologique
+        </button>
+      </div>
+      <div class="image">
+        <img src="images/minecraft_rtx_compar.png" />
+      </div>
+    </section>
 
-        <li class="menu-bonus"><a href="#">Bonus</a>
-            <ul class="submenu">
-                <li><a href="#">Bonus 1</a></li>
-                <li><a href="#">Bonus 2</a></li>
-                <li><a href="#">Bonus 3</a></li>
-                <li><a href="#">Bonus 4</a></li>
-            </ul>
-        </li>
+    <footer class="container">
+      <span class="blur"></span>
+      <span class="blur"></span>
+      <div class="column">
+        <div class="logo">
+          <img src="images/logo_lycee.png" />
+        </div>
+        <p>Plateformes sur lesquelles je suis</p>
+        <div class="socials">
+          <a href="#"><i class="ri-linkedin-line"></i></a>
+        </div>
+      </div>
+    </footer>
 
+    <div class="copyright">
+      Copyright © 2024-2025 Eliot Barrabes. Tout droits réservés.
+    </div>
 
-
-    </ul>
-
-
-</nav>
-
-<!-- <div class="video-container"> -->
-<div>
-	<video autoplay muted loop>
-        <source src="Satisfactory_nocomment.mp4" type="video/mp4" />
-    </video>
-</div>
-
-<!--
-<video autoplay muted loop id="myVideo">
-    <source src="Satisfactory_nocomment.mp4" type="video/mp4">
-</video>
--->
-<!--<video src="Satisfactory_Exploration.m4a" muted autoplay loop type="video/m4a"></video>-->
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
